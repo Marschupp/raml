@@ -1,0 +1,664 @@
+#%RAML 1.0
+title: sl-open-transport-information
+version: v1
+description: Public API for SL transport information
+baseUri:
+
+uses:
+  slopenapi: /exchange_modules/db71c361-e2d8-4f38-a898-4da84da77e27/sl-open-transport-information-types/1.0.57/sl-open-transport-information-types.raml
+  common: /exchange_modules/db71c361-e2d8-4f38-a898-4da84da77e27/open-api-common-types/1.0.12/open-api-common-types.raml
+
+traits: 
+  clientIdClientSecret:
+    headers: 
+      Client-Id:
+        type: string
+        description: The client identifier
+        required: true
+        example: d2b68e227a594ec7c3f1b7c6e5bbc9e8
+      Client-Secret:
+        type: string
+        description: The secret key associated with the client_id
+        required: true
+        example: d2548EF907505A02bF2F1F84c38eE4Cf
+    responses:
+      401:
+        description: Unauthorized or invalid client application credentials
+      500:
+        description: Bad response from authorization server
+
+/transport-authorities:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get all transport authorities
+    description: Get all transport authorities within region Stockholm
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.TransportAuthority
+            examples: 
+              Transportauthorities example: !include examples/transport-authorities-example.json
+  /{transport_authority_id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      transport_authority_id:
+        type: slopenapi.TransportAuthorityId
+        required: true
+    get:
+      displayName: Get a specific transport authority
+      description: Get a specific transport authority by id
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.TransportAuthority
+              examples: 
+                Transportauthoritiy sl example: !include examples/transport-authoritiy-sl-example.json
+        404:
+          description: Transport authority not found
+
+    /groups-of-lines:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get all groups of lines
+        description: Get all groups of lines used within region Stockholm
+        queryParameters:
+          include_children:
+            type: common.IncludeChildren
+            required: false
+        responses:
+          200:
+            body:
+              application/json:
+                type: array
+                items: slopenapi.GroupOfLines
+                examples:
+                  Groups of lines without children example: !include examples/group-of-lines-without-children-example.json
+                  Groups of lines with children example: !include examples/group-of-lines-with-children-example.json
+
+    /lines:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get all lines
+        description: Get all lines for a transport authority
+        responses:
+          200:
+            body:
+              application/json:
+                type: slopenapi.Lines
+                examples:
+                  Lines example: !include examples/lines-example.json
+      /{line_id}:
+        is: [clientIdClientSecret]
+        uriParameters:
+          line_id:
+            type: slopenapi.LineId
+            required: true
+        get:
+          displayName: Get a specific line
+          description: Get a specific line by id
+          responses:
+            200:
+              body:
+                application/json:
+                  type: slopenapi.Line
+                  examples: 
+                    Line 19 example: !include examples/line-19-example.json
+            404:
+              description: Line not found
+
+        /journeys:
+          is: [clientIdClientSecret]
+          get:
+            displayName: Get journeys
+            description: Get all journeys during a specific operating day for a line
+            queryParameters:
+              operating_day_date:
+                description: The day the journey is scheduled for operation. Defaults to today.
+                type: slopenapi.JourneyOperatingDayDate
+                required: false
+            responses:
+              200:
+                body:
+                  application/json:
+                    type: array
+                    items: slopenapi.Journey
+                    example: !include examples/journeys-example.json
+
+          /{journey_id}:
+            is: [clientIdClientSecret]
+            uriParameters:
+              journey_id:
+                type: slopenapi.JourneyId
+                required: true
+            get:
+              displayName: Get a specific journey
+              description: Get information about a specific journeys by id, including all stops
+              queryParameters:
+                operating_day_date:
+                  description: The day the journey is scheduled for operation. Defaults to today.
+                  type: slopenapi.JourneyOperatingDayDate
+                  required: false
+              responses:
+                200:
+                  body:
+                    application/json:
+                      type: slopenapi.Journey
+                      example: !include examples/journey-example.json
+
+/sites:
+  is: [clientIdClientSecret]
+  get: 
+    displayName: Get all sites 
+    description: Get all sites within region Stockholm
+    queryParameters: 
+      include_children:
+        type: common.IncludeChildren
+        required: false
+      stop_area_id:
+        description: Fetch only sites for stop area with this id
+        type: slopenapi.StopAreaId
+        required: false  
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.Site
+            examples:
+              Sites without children example: !include examples/sites-without-children-example.json
+              Sites with children example: !include examples/sites-with-children-example.json
+
+  /{site_id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      site_id:
+        type: slopenapi.SiteId
+        required: true
+    get:
+      displayName: Get a specific site
+      description: Get a specific site by id
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.Site
+              examples: 
+                Site odenplan example: !include examples/site-9117-odenplan-example.json
+        404:
+          description: Site not found
+    /departures:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get departures from site
+        description: Get departures that departs from the site within a timeframe
+        queryParameters:
+          timeframe:
+            type: slopenapi.DepartureTimeframe
+            required: false
+          include_nearby: 
+            description: Also fetch departures from intersecting sites
+            type: slopenapi.NearbyDeparture
+            required: false
+          transport_mode:
+            description: Fetch only departures for the specified mode of transport
+            type: common.TransportMode
+            required: false
+          line_id:
+            description: Fetch only departures for the specified line
+            type: slopenapi.LineId
+            required: false
+          direction_code: 
+            description: Fetch only departures for the specified line direction
+            type: common.DirectionCode  
+            required: false
+        responses:
+          200:
+            body:
+              application/json:
+                type: slopenapi.SiteDepartures
+                example: !include examples/site-departures-example.json
+
+/stop-areas:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get all stop areas
+    description: Get all stop areas within region Stockholm
+    queryParameters: 
+      include_children:
+        type: common.IncludeChildren
+        required: false
+      site_id:
+        description: Fetch only stop areas for site with this id
+        type: slopenapi.SiteId
+        required: false    
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.StopArea
+            examples:
+              Stopareas without children example: !include examples/stop-areas-without-children-example.json
+              Stopareas with children example: !include examples/stop-areas-with-children-example.json
+  /{stop_area_id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      stop_area_id:
+        type: slopenapi.StopAreaId
+        required: true
+    get:
+      displayName: Get a specific stop area
+      description: Get a specific stop area by id
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.StopArea
+              examples: 
+                Stoparea Stora Mossen example: !include examples/stop-area-1211-Stora-mossen-example.json
+        404:
+          description: Stop area not found
+    /departures:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get departures from stop area
+        description: Get departures that departs from the stop area within a timeframe
+        queryParameters:
+          timeframe:
+            type: slopenapi.DepartureTimeframe
+            required: false
+          include_nearby: 
+            description: Also fetch departures from nearby stop areas
+            type: slopenapi.NearbyDeparture
+            required: false  
+          line_id:
+            description: Fetch only departures for the specified line
+            type: slopenapi.LineId
+            required: false
+          direction_code:
+            description: Fetch only departures for the specified line direction
+            type: common.DirectionCode  
+            required: false  
+        responses:
+          200:
+            body:
+              application/json:
+                type: array
+                items: slopenapi.Departure
+                example: !include examples/stop-area-departures-example.json
+    /deviations:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get stop area deviations
+        description: Get all currently active deviations related to the stop area
+        responses:
+          200:
+            body:
+              application/json:
+                type: slopenapi.StopAreaDeviation
+                example: !include examples/stop-area-deviations-example.json                  
+
+/entrance-points:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get all entrance points
+    description: Get all entrance points within region Stockholm
+    queryParameters: 
+      stop_area_id:
+        description: Fetch only entrance points for stop area with this id
+        type: slopenapi.StopAreaId
+        required: false
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.StopAreaEntrance
+            examples: 
+              Entrancepoints example: !include examples/entrance-points-example.json
+  /{entrance_point_id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      entrance_point_id:
+        type: slopenapi.EntrancePointId
+        required: true
+    get:
+      displayName: Get a specific entrance point
+      description: Get a specific entrance point by id
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.StopAreaEntrance
+              examples: 
+                Entrancepoint Torsgatan Karlbergsvägen example: !include examples/entrance-point-1141001-example.json
+        404:
+          description: Stop area entrance not found
+
+/stop-points:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get all stop points
+    description: Get all stop points within region Stockholm
+    queryParameters: 
+      stop_area_id:
+        description: Fetch only stop points for stop area with this id
+        type: slopenapi.StopAreaId
+        required: false
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.StopPoint
+            examples: 
+              Stoppoints example: !include examples/stop-points-example.json
+  /{stop_point_id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      stop_point_id:
+        type: slopenapi.StopPointId
+        required: true
+    get:
+      displayName: Get a specific stop point
+      description: Get a specific stop point by id
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.StopPoint
+              examples: 
+                Stoppoint Östra Polhem example: !include examples/stop-point-51602-polhem-example.json
+        404:
+          description: Stop point not found
+    /departures:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get departures from stop point
+        description: Get departures that departs from the stop point within a timeframe
+        queryParameters:
+          timeframe:
+            type: slopenapi.DepartureTimeframe
+            required: false
+          line_id:
+            description: Fetch only departures for the specified line
+            type: slopenapi.LineId
+            required: false
+        responses:
+          200:
+            body:
+              application/json:
+                type: array
+                items: slopenapi.Departure
+                example: !include examples/stop-point-departures-example.json
+    /deviations:
+      is: [clientIdClientSecret]
+      get:
+        displayName: Get stop point deviations
+        description: Get all currently active deviations related to the stop point
+        responses:
+          200:
+            body:
+              application/json:
+                type: array
+                items: slopenapi.Deviation
+                example: !include examples/stop-point-deviations-example.json                  
+
+/named-places:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get places by name
+    description: Get places (Site, POI or Address) by name using a search string
+    queryParameters:
+      search_string:
+        description: String to search for in places names.
+        type: string
+        minLength: 3
+        required: true
+      max_results:
+        description: Maximum number of search results returned by the query
+        type: integer
+        minimum: 1
+        default: 10
+        required: false
+      include_poi:
+        description: Include POIs in the result
+        type: boolean
+        required: false
+        default: true
+      include_address:
+        description: Include addresses in the result
+        type: boolean
+        required: false
+        default: true
+      include_site:
+        description: Include sites in the result
+        type: boolean
+        required: false
+        default: true          
+    responses:
+      200:
+        body: 
+          application/json:            
+            type: slopenapi.JP2NamedPlace[]
+            example: !include /examples/getnamedplaces-response-example.json
+
+/nearby-places:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get nearby places by location
+    description: Get nearby places (Site, POI or Address) by location
+    queryParameters:
+      latitude:
+        description: Latitude parameter to enable a search for places around a geolocation within a circular area
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude parameter to enable a search for places around a geolocation within a circular area
+        type: common.WGS84Longitude
+        required: true
+      radius:
+        description: Maximum search radius in meters
+        type: integer
+        minimum: 1
+        default: 1000
+        required: false
+      max_results:
+        description: Maximum number of search results returned by the query
+        type: integer
+        minimum: 1
+        default: 10
+        required: false
+      include_poi:
+        description: Include POIs in the result
+        type: boolean
+        required: false
+        default: true
+      include_site:
+        description: Include sites in the result
+        type: boolean
+        required: false
+        default: true
+      products:
+        description: Product filter to use for sites. Available products are BUS (Buss), METRO (Tunnelbana), TRAIN (Pendeltåg), LOCALTRAINTRAM (Lokalbana/spårvagn), BOAT (Båt) and LOCALBUS (Närtrafik). The format is a string with products separated by comma. If omitted, all products are included in the filter.
+        type: string
+        required: false
+        example: BUS,TRAIN,METRO          
+    responses:
+      200:
+        body: 
+          application/json:            
+            type: slopenapi.JP2NearbyPlace[]
+            example: !include /examples/getnearbyplaces-response-example.json
+
+
+/trip-planner/trip-searches:
+  is: [clientIdClientSecret]
+  post:
+    displayName: Search for trips
+    description: Search for trips
+    body:
+      application/json:
+        type: slopenapi.JP2SearchTripsRequest
+        example: !include /examples/searchtrips-request-example.json
+    responses:
+      200:
+        body:
+          application/json:
+            type: slopenapi.JP2SearchTripsResponse
+            example: !include /examples/searchtrips-response-example.json
+
+/trip-planner/trips/{id}:
+    is: [clientIdClientSecret]
+    uriParameters:
+      id:
+        description: Unique identifier of a trip
+        type: string
+        required: true
+        example: "VCRBPTFATz1TbHVzc2VuQEw9NDAwMTAyMDEyQGE9MTI4QCRBPTFATz1Ib3Juc3R1bGxATD00MDAxMDI1MzJAYT0xMjhAJDIwMTkxMjAzMTYzMSQyMDE5MTIwMzE2MzUkICAgICAgICAk"
+    get:
+      displayName: Get trip by id
+      description: Get specific trip or search a corresponding trip another date
+      queryParameters:
+        language_code:
+          description: Code representing the language to be used in response.
+          type: slopenapi.JP2LanguageCode
+          required: false
+          default: sv
+        alternative_date:
+          description: Use an alternative date to return the corresponding journey if possible.
+          type: date-only
+          required: false
+        enable_poly:
+          description: Enables (true) or disables (false) the calculation of the polyline for each leg of the trip.
+          type: boolean
+          required: false 
+        enable_passlist:
+          description: Enables (true) or disables (false) the passlist for each leg of the trip.
+          type: boolean
+          required: false
+          default: false
+        enable_show_passing_points:
+          description: Enables/disables the return of stops having no alighting and no boarding in its passlist for each leg of the trip. Needs enable_passlist parameter set to true.
+          type: boolean
+          required: false
+          default: false
+      responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.JP2Trip
+              example: !include /examples/gettrip-response-example.json
+              
+
+/trip-planner/journey-details/{id}:
+  is: [clientIdClientSecret]
+  uriParameters:
+    id:
+      description: Unique identifier of journey detail
+      type: string
+      required: true
+      example: "MXwxMDQ4NHwxM3w3NHwzMTIyMDE5"
+  get:
+    displayName: Get journey detail by id
+    description: Get specific journey detail or search a corresponding another date
+    queryParameters:
+      language_code:
+        description: Code representing the language to be used in response.
+        type: slopenapi.JP2LanguageCode
+        required: false
+        default: sv
+      alternative_date:
+        description: Specifies an alternative date to return the corresponding journey if possible.
+        type: date-only
+        required: false
+      enable_poly:
+        description: Enables (true) or disables (false) the calculation of the polyline for each leg of the trip.
+        type: boolean
+        required: false 
+      enable_show_passing_points:
+        description: Enables/disables the return of stops having no alighting and no boarding in its passlist for each leg of the trip.
+        type: boolean
+        required: false
+        default: false
+    responses:
+        200:
+          body:
+            application/json:
+              type: slopenapi.JP2JourneyDetail
+              example: !include /examples/getjourneydetail-response-example.json
+
+/trip-planner/gis-routes/{id}:
+  is: [clientIdClientSecret]
+  uriParameters:
+    id:
+      description: Unique identifier of a gis route
+      type: string
+      required: true
+      example: "R3wxfEdARnxBPTFATz1SZWltZXJzaG9sbWVAWD0xODAyMDY2NkBZPTU5MzE3OTI4QFU9NzRATD00MDAxMTA5NTVAfEE9MkBPPVN0b2NraG9sbSwgUmVpbWVyc2hvbG1zZ2F0YW4gNzVAWD0xODAxODIxMkBZPTU5MzE3NjY4QHU9OUB8MzEyMjAxOXwxNzA2MDB8MTcwOTAwfGZ0fGZ0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp2J0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3R0QDBANTAwMEAxMjBALTFAMTAwQDFAMjUwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3w="
+  get:
+    displayName: Get gis route by id
+    description: Get gis route by id
+    queryParameters:
+      language_code:
+        description: Code representing the language to be used in response.
+        type: slopenapi.JP2LanguageCode
+        required: false
+        default: sv
+      enable_poly:
+        description: Enables (true) or disables (false) the calculation of the polyline for each leg of the trip.
+        type: boolean
+        required: false 
+    responses:
+      200:
+        body:
+          application/json:
+            type: slopenapi.JP2GisRoute
+            example: !include /examples/getgisroute-response-example.json
+
+
+/time-table-info:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get time table info
+    description: Get time table info
+    responses:
+      200:
+        body: 
+          application/json:            
+            type: slopenapi.JP2TimeTableInfo
+            example:
+              !include examples/gettimetableinfo-response-example.json
+
+/deviation-searches:
+  is: [clientIdClientSecret]
+  post:
+    displayName: Deviation search
+    description: Search for deviations within region Stockholm
+    body:
+      application/json:
+        type: slopenapi.DeviationSearchRequest
+    responses:
+      200:
+        body:
+          application/json:
+            type: array
+            items: slopenapi.DetailedDeviation
+            example: !include /examples/deviation-search-example.json
+
+/traffic-situation:
+  is: [clientIdClientSecret]
+  get:
+    displayName: Get traffic situation
+    description: Get traffic situation
+    responses:
+      200:
+        body:
+          application/json:
+            type: slopenapi.TrafficSituationResponse
+            example: !include /examples/trafficsituation-response-example.json
+
+
