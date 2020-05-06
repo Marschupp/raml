@@ -1,0 +1,13 @@
+{
+	"origin_coordinates": {
+		"longitude": 18.039086,
+		"latitude": 59.318486
+	},
+	"dest_coordinates": {
+		"longitude": 18.165109,
+		"latitude": 59.310316
+  },
+  "enable_poly": true,
+  "enable_passlist": true,
+  "datetime": "2020-04-23T14:30:00"
+}

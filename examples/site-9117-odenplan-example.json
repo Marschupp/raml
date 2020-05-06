@@ -1,0 +1,352 @@
+{
+  "id": 9117,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9117",
+  "name": "Odenplan",
+  "latitude": 59.3429034949229,
+  "longitude": 18.0491023996295,
+  "valid_period": {
+    "valid_from": "2017-06-14T00:00:00"
+  },
+  "stop_areas": [
+    {
+      "id": 1131,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1131",
+      "name": "Odenplan",
+      "short_name": "Odenplan",
+      "abbreviation": "ODP",
+      "type": "METROSTN",
+      "latitude": 59.3427630498221,
+      "longitude": 18.0486536334011,
+      "valid_period": {
+        "valid_from": "2012-06-23T00:00:00"
+      },
+      "sites": [
+        {
+          "id": 9117,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9117",
+          "name": "Odenplan"
+        }
+      ],
+      "stop_points": [
+        {
+          "id": 1131,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1131",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 1,
+          "type": "PLATFORM",
+          "has_entrance": true,
+          "latitude": 59.3427594713838,
+          "longitude": 18.0486006570919,
+          "valid_period": {
+            "valid_from": "2019-06-14T00:00:00"
+          }
+        },
+        {
+          "id": 1132,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1132",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 2,
+          "type": "PLATFORM",
+          "has_entrance": true,
+          "latitude": 59.3427666282387,
+          "longitude": 18.0487066097207,
+          "valid_period": {
+            "valid_from": "2019-06-14T00:00:00"
+          }
+        }
+      ],
+      "entrance_points": [
+        {
+          "id": 1131001,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1131001",
+          "name": "Odenplan Sveavägen",
+          "latitude": 59.3429404691293,
+          "longitude": 18.0501156668038,
+          "valid_period": {
+            "valid_from": "2017-10-17T00:00:00"
+          }
+        },
+        {
+          "id": 1131002,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1131002",
+          "name": "Västmannagatan Karlbergsvägen",
+          "latitude": 59.3429914326936,
+          "longitude": 18.0456871087163,
+          "valid_period": {
+            "valid_from": "2017-10-17T00:00:00"
+          }
+        },
+        {
+          "id": 1131003,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1131003",
+          "name": "Karlbergsvägen Norrtullsgatan",
+          "latitude": 59.3431463478471,
+          "longitude": 18.0498220992663,
+          "valid_period": {
+            "valid_from": "2017-10-17T00:00:00"
+          }
+        },
+        {
+          "id": 1131004,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1131004",
+          "name": "Karlbergsvägen Upplandsgatan",
+          "latitude": 59.3431341098009,
+          "longitude": 18.0494506408244,
+          "valid_period": {
+            "valid_from": "2017-10-17T00:00:00"
+          }
+        },
+        {
+          "id": 1131005,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1131005",
+          "name": "Odenplan Gustav Vasa kyrka",
+          "latitude": 59.3429110967604,
+          "longitude": 18.0494975086021,
+          "valid_period": {
+            "valid_from": "2017-10-17T00:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5320,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/5320",
+      "name": "Stockholm Odenplan",
+      "short_name": "Sthlm Odenplan",
+      "abbreviation": "SOD",
+      "type": "RAILWSTN",
+      "latitude": 59.3432130491561,
+      "longitude": 18.0457207237783,
+      "valid_period": {
+        "valid_from": "2017-02-07T00:00:00"
+      },
+      "sites": [
+        {
+          "id": 9117,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9117",
+          "name": "Odenplan"
+        }
+      ],
+      "stop_points": [
+        {
+          "id": 5320,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/5320",
+          "name": "Stockholm Odenplan",
+          "short_name": "Sthlm Odenplan",
+          "local_number": 1,
+          "type": "PLATFORM",
+          "has_entrance": true,
+          "latitude": 59.3432175328947,
+          "longitude": 18.0457211255649,
+          "valid_period": {
+            "valid_from": "2019-10-30T00:00:00"
+          }
+        },
+        {
+          "id": 5321,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/5321",
+          "name": "Stockholm Odenplan",
+          "short_name": "Sthlm Odenplan",
+          "local_number": 2,
+          "type": "PLATFORM",
+          "has_entrance": true,
+          "latitude": 59.3432085654175,
+          "longitude": 18.0457203219919,
+          "valid_period": {
+            "valid_from": "2019-11-07T00:00:00"
+          }
+        }
+      ],
+      "entrance_points": [
+        {
+          "id": 5320001,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/5320001",
+          "name": "Vanadisvägen",
+          "latitude": 59.3452571266839,
+          "longitude": 18.0418839824349,
+          "valid_period": {
+            "valid_from": "2019-06-14T00:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/10151",
+      "name": "Odenplan",
+      "short_name": "Odenplan",
+      "abbreviation": "ODP",
+      "type": "BUSTERM",
+      "latitude": 59.3429031564958,
+      "longitude": 18.0493177346419,
+      "valid_period": {
+        "valid_from": "2012-06-23T00:00:00"
+      },
+      "sites": [
+        {
+          "id": 9117,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9117",
+          "name": "Odenplan"
+        }
+      ],
+      "stop_points": [
+        {
+          "id": 10186,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10186",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 1,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3424783440055,
+          "longitude": 18.0492465912106,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10232,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10232",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 2,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3426916817755,
+          "longitude": 18.0500832635426,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10341,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10341",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 3,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3430350237089,
+          "longitude": 18.0505333129372,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10342,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10342",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 4,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3428366372219,
+          "longitude": 18.0484282993213,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10343,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10343",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 5,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3430733435945,
+          "longitude": 18.0493149243006,
+          "valid_period": {
+            "valid_from": "2017-12-20T00:00:00"
+          }
+        },
+        {
+          "id": 10345,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10345",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 6,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3429249446707,
+          "longitude": 18.0478556205193,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10579,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10579",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 7,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3425537737108,
+          "longitude": 18.0485519329729,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10797,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10797",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 11,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3428950260222,
+          "longitude": 18.0472500680972,
+          "valid_period": {
+            "valid_from": "2016-11-12T00:00:00"
+          }
+        },
+        {
+          "id": 10798,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10798",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 9,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3428166435906,
+          "longitude": 18.0504034065018,
+          "valid_period": {
+            "valid_from": "2017-07-27T00:00:00"
+          }
+        },
+        {
+          "id": 10799,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10799",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 10,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.342951636207,
+          "longitude": 18.0457400494002,
+          "valid_period": {
+            "valid_from": "2017-07-27T00:00:00"
+          }
+        },
+        {
+          "id": 10806,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10806",
+          "name": "Odenplan",
+          "short_name": "Odenplan",
+          "local_number": 8,
+          "type": "BUSSTOP",
+          "has_entrance": false,
+          "latitude": 59.3433066695855,
+          "longitude": 18.0476349638216,
+          "valid_period": {
+            "valid_from": "2017-07-27T00:00:00"
+          }
+        }
+      ]
+    }
+  ]
+}

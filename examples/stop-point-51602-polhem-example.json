@@ -1,0 +1,24 @@
+{
+  "id": 51602,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/51602",
+  "name": "Östra Polhem",
+  "short_name": "Östra Polhem",
+  "type": "BUSSTOP",
+  "has_entrance": false,
+  "latitude": 59.4470867156138,
+  "longitude": 17.8378526542908,
+  "transport_authority": {
+    "id": 1,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+    "name": "Storstockholms Lokaltrafik"
+  },
+  "stop_area": {
+    "id": 51602,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/51602",
+    "name": "Östra Polhem",
+    "type": "BUSTERM"
+  },
+  "valid_period": {
+    "valid_from": "2014-06-03T00:00:00"
+  }
+}

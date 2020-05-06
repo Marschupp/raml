@@ -1,0 +1,2067 @@
+#%RAML 1.0 Library
+usage:
+
+uses:
+  common: /exchange_modules/db71c361-e2d8-4f38-a898-4da84da77e27/open-api-common-types/1.0.12/open-api-common-types.raml
+
+types:
+
+  TransportAuthorityId:
+    description: Unique identifikation number that identifies the transport authority 
+    type: integer
+    example: 19
+
+  TransportAuthorityReference:
+    properties:
+      id:
+        type: TransportAuthorityId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: string
+        required: true
+ 
+  TransportAuthority:
+    properties:
+      id:
+        type: TransportAuthorityId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: string
+        required: true
+        example: Storstockholms Lokaltrafik
+      formal_name:
+        type: string
+        required: false
+        example: AB Storstockholms Lokaltrafik
+      code:
+        type: string
+        required: true
+      street_address:
+        description: The street address including number
+        type: string
+        required: false  
+        example: Lindhagensgatan 100
+      postal_code:
+        description: Postal code (Postnummer)
+        type: integer
+        required: false
+        example: 10573
+      city:
+        description: City (Ort eller stad)
+        type: string
+        required: false
+        example: Stockholm
+      country_name:
+        description: 
+        type: string
+        required: false
+        example: Sweden
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+
+  LineId:
+    description: Unique identifier of a line within that transport authority
+    type: integer
+    example: 19
+
+  LineName:
+    description: Line name generally known to the public
+    type: string
+    example: "19"
+
+  LineDesignation:
+    description: Additional identifier for the line for example number for trains
+    type: string
+    example: "19"
+
+  LineReference:
+    properties:
+      id:
+        type: LineId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      designation:
+        type: LineDesignation
+        required: false
+
+  Line:
+    description: A group of stop point patterns that are displayed to riders as a single service that generally known to the public by a name or number
+    properties:
+      id: 
+        type: LineId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: LineName
+        required: true
+      designation:
+        type: LineDesignation
+        required: false
+      transport_mode:
+        description: The default transport mode for the line
+        type: common.TransportMode
+        required: false
+      group_of_lines:
+        description: Name used to group lines
+        type: string
+        required: false
+        example: Tunnelbanans gröna linje
+      transport_authority:
+        type: TransportAuthorityReference  
+        required: false  
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+      #journey_patterns:
+      #  description: The ordered list of stop points that exists on the line. One in each direction
+      #  type: array
+      #  required: false
+      #  items: JourneyPattern
+      #  minItems: 1
+      #  maxItems: 2
+
+  Lines:
+    description: Lines grouped by mode of transport
+    properties:
+      metro:
+        description: List of lines for metro
+        type: array
+        items: Line
+        required: true
+      tram:
+        description: List of lines for tram
+        type: array
+        items: Line
+        required: true
+      train:
+        description: List of lines for train
+        type: array
+        items: Line
+        required: true
+      bus:
+        description: List of lines for buses
+        type: array
+        items: Line
+        required: true
+      ship:
+        description: List of lines for ship
+        type: array
+        items: Line
+        required: true
+      ferry:
+        description: List of lines for ferry
+        type: array
+        items: Line
+        required: true
+      taxi:
+        description: List of lines for taxi
+        type: array
+        items: Line
+        required: true  
+
+  GroupOfLines:
+    description: A group of lines that riders often calls a line
+    properties:
+      code:
+        type: string
+        required: true
+        example: TUB1
+      name:
+        type: string
+        required: true
+        example: Tunnelbanans gröna linje
+      lines:
+        type: array
+        items: LineReference
+        required: false
+
+  SiteId:
+    description: Unique identifier a site
+    type: integer
+    example: 1002
+
+  Site:
+    description: A well known place to which passengers may refer to indicate the origin or a destination of a trip
+                 
+                 A site is used to group one or more stop areas for different mode of transport together 
+    properties:
+      id: 
+        type: SiteId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true  
+      name:
+        description: The name of the site generaly known to the public
+        type: string
+        required: true
+        example: Centralen
+      alias_names:
+        description: Alias names that describes the same place but with a different name
+        type: string[]
+        required: false
+      note:
+        description: Additional note about the site
+        type: string
+        required: false
+        example: vid Sandhamn
+      latitude:
+        description: Latitude of the location
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude of the location
+        type: common.WGS84Longitude
+        required: true
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+      stop_areas:
+        type: array
+        items: StopAreaReference | StopArea
+        minItems: 1
+        required: false
+      
+
+  SiteReference:
+    properties:
+      id:
+        type: SiteId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true  
+      name:
+        description: The name of the site generaly known to the public
+        type: string
+        required: true
+        example: Abborrkroksvägen  
+
+  SiteMinimal:
+    description: Site with minimal information. A site is a well known place to which passengers may refer to indicate the origin or a destination of a trip. A site is used to group one or more stop areas for different mode of transport together 
+    properties:
+      id: 
+        type: SiteId
+        required: true
+        example: 9115
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        description: Name of the site
+        type: string
+        required: true
+        example: Fridhemsplan
+      latitude:
+        description: Latitude of the location
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude of the location
+        type: common.WGS84Longitude
+        required: true
+
+  StopAreaId:
+    description: Unique identifier of a stop area
+    type: integer
+    example: 41483
+
+  StopAreaName:
+    description: Name of a stop area
+    type: string
+    example: Abborrkroksvägen
+
+  StopArea:
+    description: A place where passengers can board or alight from vehicles from one mode of transport same transport mode that is located close to each other, for example a terminal or a station
+    properties:
+      id: 
+        type: StopAreaId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: StopAreaName
+        required: true
+      type:
+        description: The type of stop area
+        type: common.StopAreaType
+        required: true
+      latitude:
+        description: Latitude of the location
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude of the location
+        type: common.WGS84Longitude
+        required: true
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+      sites:
+        type: array
+        items: SiteReference
+        minItems: 1
+        required: false
+      stop_points:
+        type: array
+        items: StopPoint
+        minItems: 1
+        required: false
+      entrance_points:
+        type: array
+        items: StopAreaEntrance
+        minItems: 0
+        required: false
+
+
+  StopAreaReference:
+    properties:
+      id:
+        type: StopAreaId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: StopAreaName
+        required: true
+      type:
+        description: The type of stop area
+        type: common.StopAreaType
+        required: true
+
+  EntrancePointId:
+    description: Unique identifier of an entrance point
+    type: integer
+    example: 2531001
+
+  EntrancePointName:
+    description: Name of an entrance point
+    type: string
+    example: Högalidsparken
+
+  StopAreaEntrance:
+    description: An entrance to a place where passengers can board or alight from vehicles from one mode of transport, for example a terminal or a station entrance
+    properties:
+      id: 
+        description: Identifikation number that identifies the entrance point within the stop area
+        type: EntrancePointId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: EntrancePointName
+        required: true 
+      latitude:
+        description: Latitude of the location
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude of the location
+        type: common.WGS84Longitude
+        required: true  
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+      stop_area: 
+        type: StopAreaReference
+        required: false
+
+
+  StopPointId:
+    description: Unique identifier of a stop point
+    type: integer
+    example: 41483
+
+  StopPointName:
+    description: Name of a stop point
+    type: string
+    example: Universitetet
+
+  StopPointDesignation:
+    description: Designation of a stop point
+    type: string
+    example: D
+
+  StopPointReference:
+    properties:
+      id:
+        type: StopPointId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: StopPointName
+        required: true
+      designation:
+        type: StopPointDesignation
+        required: false  
+
+  StopPoint:
+    description: A point where passengers can board or alight from vehicles
+    properties:
+      id: 
+        type: StopPointId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      name:
+        type: StopPointName
+        required: true
+      short_name:
+        type: string
+        required: false
+      designation:
+        type: StopPointDesignation
+        required: false
+      type:
+        description: The type of stop point
+        type: common.StopPointType
+        required: true
+      has_entrance:
+        description: Do you have to pass an entrance to get to the stop point
+        type: boolean
+        required: true
+      latitude:
+        description: Latitude of the location
+        type: common.WGS84Latitude
+        required: true
+      longitude:
+        description: Longitude of the location
+        type: common.WGS84Longitude
+        required: true        
+      transport_authority:
+        type: TransportAuthorityReference
+        required: true  
+      stop_area: 
+        type: StopAreaReference
+        required: false  
+      valid_period:
+        type: common.ObjectValidityPeriod
+        required: true
+
+  JourneyId:
+    description: Unique identifikation number that identifies a journey within a line and a transport authority
+    type: integer
+    example: 10015
+
+  JourneyOperatingDayDate:
+    description: The day the journey is sheduled for operation
+    type: date-only
+    example: 2020-02-18
+
+  JourneyReference:
+    description: A reference to a journey scheduled for operation on a specified day
+    properties:
+      id: 
+        description: Identifier of the current journey
+        type: JourneyId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+
+  Journey:
+    description: A journey scheduled for operation on a specified day
+    properties:
+      id: 
+        description: Identifier of the current journey
+        type: JourneyId
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true
+      transport_authority:
+        type: TransportAuthorityReference
+        required: false
+      line:
+        type: LineReference
+        required: true  
+      direction_code: 
+        type: common.DirectionCode
+      direction_name:
+        description: Name of the direction
+        type: string
+        required: true
+        example: Kungsträdgården
+      number_of_stops:
+        description: Number of stops on this journey
+        type: integer
+        required: true
+      origin_name: 
+        description: Origin name (first station) for the journey
+        type: string
+        required: true
+        example: Vällingby  
+      destination_name: 
+        description: Name of the journey destination name (not always the same as the name of the end stop point)
+        type: string
+        required: true
+        example: Vällingby
+      secondary_destination_name: 
+        description: Secondary destination name for the current journey. Only relevant for transport train.
+        type: string
+        required: false
+        example: Vällingby
+      operating_day_date:
+        description: The day the journey is sheduled for operation
+        type: JourneyOperatingDayDate
+        required: true
+      scheduled_start_datetime:
+        description: Scheduled timing information for the journey to start
+        type: common.ISO8601LocalDatetime
+        required: true
+      scheduled_end_datetime:
+        description: Scheduled timing information for the journey to end
+        type: common.ISO8601LocalDatetime
+        required: true
+      journey_stops:
+        description: An ordered list of stops on a single journey, describing the pattern of working for public transport vehicles
+        type: array
+        required: false
+        items: JourneyStop
+        minItems: 1
+
+
+  JourneyStop:
+    description: A stop on a journey. 
+    properties:
+      sequence_number: 
+        type: integer
+        required: true
+      scheduled_arrival_datetime:
+        description: Scheduled timing information for the latest time the journey should arrive to the stop point
+        type: common.ISO8601LocalDatetime
+        required: true  
+      expected_arrival_datetime:
+        description: Scheduled timing information for the latest time the journey should arrive to the stop point
+        type: common.ISO8601LocalDatetime
+        required: false  
+      scheduled_departure_datetime:
+        description: Scheduled timing information for the latest time the journey should depart from the stop point
+        type: common.ISO8601LocalDatetime
+        required: true  
+      expected_departure_datetime:
+        description: Scheduled timing information for the latest time the journey should depart from the stop point
+        type: common.ISO8601LocalDatetime
+        required: false    
+      boarding:
+        description: Describes the type of boarding of the vehicle avaliable at this stop point 
+        type: common.DepartureType
+        required: true
+      alighting:
+        description: Describes the type of alighting of the vehicle avaliable at this stop point
+        type: common.ArrivalType
+        required: true
+      distance_next_stop:
+        description: The distance in meters to the next stop.
+        type: integer
+        required: false
+      stop_area:
+        type: StopAreaReference
+        required: true
+      stop_point:
+        type: StopPointReference
+        required: true
+
+
+  SiteDepartures:
+    description: Lines grouped by mode of transport
+    properties:
+      train:
+        description: List of departures for trains
+        type: array
+        items: Departure
+        required: false
+      tram:
+        description: List of lines for trams
+        type: array
+        items: Departure
+        required: false
+      bus:
+        description: List of lines for buses
+        type: array
+        items: Departure
+        required: false
+      taxi:
+        description: List of lines for taxis
+        type: array
+        items: Departure
+        required: false
+      metro:
+        description: List of lines for metros
+        type: array
+        items: Departure
+        required: false
+      ship:
+        description: List of lines for ships
+        type: array
+        items: Departure
+        required: false
+      ferry:
+        description: List of lines for ferries
+        type: array
+        items: Departure
+        required: false
+
+  DepartureTimeframe:
+    description: Fetch departures within this timeframe. The timeframe in number of minutes from now
+    type: integer
+    default: 5
+    maximum: 60
+    minimum: 5
+
+  NearbyDeparture:
+    description: Also fetch departures from nearby stop areas and intersecting sites
+    type: boolean
+    default: false
+
+  Departure:
+    properties:
+      destination_name: 
+        description: Name of the journey destination name (not always the same as the name of the destination stop point name)
+        type: string
+        required: true
+        example: Vällingby
+      secondary_destination_name: 
+        description: Secondary destination name for the current journey. Only relevant for transport train.
+        type: string
+        required: false
+        example: Vällingby
+      direction_code: 
+        type: common.DirectionCode
+      display_time: 
+        description: Departure timing information formated for easy reading
+        type: string  
+      scheduled_datetime:
+        description: Scheduled timing information for the departure 
+        type: common.ISO8601LocalDatetime
+        required: true
+      expected_datetime:
+        description: Realtime timing information for the departure 
+        type: common.ISO8601LocalDatetime
+        required: false
+      journey:
+        type: JourneyReference
+        required: true
+      stop_area:
+        type: StopAreaReference  
+        required: true  
+      stop_point:
+        type: StopPointReference  
+        required: true
+      line: 
+        type: LineReference
+        required: true
+      deviations: 
+        type: array
+        items: DepartureDeviation
+        required: true
+
+  DepartureDeviation:
+    properties:
+      importance_level:
+        description: The priority importance level of deviation message
+        type: integer
+        required: true
+        example: 5
+      consequense:
+        description: The consequense category for the deviation message
+        type: string
+        required: true
+        example: INFORMATION
+      public_note:
+        description: The deviation message text 
+        type: string
+        required: true
+        example: "Resa förbi Arlanda C kräver både UL- och SL- biljett."
+
+  StopAreaDeviation:
+    properties:
+      stop_area_deviations:
+        type: array
+        items: Deviation
+        required: true
+      stop_point_deviations: 
+          type: array
+          items: StopPointDeviation
+          required: true
+
+  StopPointDeviation:
+    properties:
+      stop_point:
+        type: StopPointReference
+        required: true
+      deviations:
+        type: array
+        items: Deviation
+        required: false
+
+  Deviation:
+    properties:
+      importance_level:
+        description: The priority importance level of deviation message
+        type: integer
+        required: true
+        example: 5
+      public_note:
+        description: The deviation message text 
+        type: string
+        required: true
+        example: "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!"
+      lines:
+        type: array
+        items: LineReference
+        required: false
+
+  DeviationScope:
+    properties:
+      stop_areas:
+        type: array
+        items: StopAreaReference
+        required: false
+      stop_points:
+        type: array
+        items: StopPointReference
+        required: false  
+      lines:
+        type: array
+        items: LineReference
+        required: false
+
+  DetailedDeviation:
+      properties:
+        id: 
+          description: The deviation case id
+          type: integer
+          example: 9076001019795870
+        message_version:
+          description: The version number of the deviation message
+          type: integer
+        public_note:
+          description: The deviatiom message text 
+          type: string
+          required: true
+          example: "Resa förbi Arlanda C kräver både UL- och SL- biljett."    
+        header:
+          description: The message header
+          type: string
+          required: false
+          example: "Flyttade hållplatser för linje 163 och 180"
+        details:
+          description: The message details
+          type: string
+          required: false
+          example: "Förändringar för linje 163 och 180 i Kärrtorp från 21 januari på grund av ombyggnation av busstorget."    
+        importance_level:
+          description: The priority importance level of deviation message
+          type: integer
+          required: true
+          example: 5
+        from_datetime:
+          description: The time that the deviation is valid from
+          type: common.ISO8601LocalDatetime
+          required: true
+        to_datetime:
+          description: The time that the deviation is valid up to
+          type: common.ISO8601LocalDatetime
+          required: true
+        created_datetime:
+          description: The time that the deviation was created
+          type: common.ISO8601LocalDatetime
+          required: true
+        updated_datetime:
+          description: The time that the deviation was last updated
+          type: common.ISO8601LocalDatetime
+          required: true
+        scope:
+          type: DeviationScope
+          required: true
+
+  DeviationSearchRequest:
+    properties:
+      deviation_datetime:
+        description: Search for deviations that were valid at this time. Defaults to current time
+        type: common.ISO8601LocalDatetime
+        required: false
+      include_future_deviations:
+        description: Include deviations that has future start times in the results 
+        type: boolean
+        required: false  
+      include_site_id:
+        description: Include result for this site only
+        type: SiteId
+        required: false
+      include_line_ids:
+        description: Specifies a list of ids for lines that should be included. If omitted, no line is excluded.
+        required: false
+        type: LineId[]
+      include_transport_modes:
+        description: Specifies what transport modes to include in seach results. If omitted, all transport modes are included.
+        required: false
+        type: common.TransportMode[]
+
+  TrafficSituationResponse:
+    properties:
+      metro:
+        type: TrafficTypeSituation
+        description: Traffic situation for metro
+      train:
+        type: TrafficTypeSituation
+        description: Traffic situation for train
+      local:
+        type: TrafficTypeSituation
+        description: Traffic situation for local
+      tram:
+        type: TrafficTypeSituation
+        description: Traffic situation for tram
+      bus:
+        type: TrafficTypeSituation
+        description: Traffic situation for bus
+      ferry:
+        type: TrafficTypeSituation
+        description: Traffic situation for ferry
+      
+  TrafficTypeSituation:
+    description: Traffic type situation for a specific traffic type
+    properties:
+      name:
+        type: string
+        description: Name of traffic type
+        required: true
+      overall_status_code:
+        type: TrafficTypeSituationStatusCode
+        description: Overall status code (Major, Minor, Good or Planned)
+        required: true
+      has_expanded_events:
+        type: boolean
+        description: Indicator if traffic type has any high priority events
+        required: true
+      has_planned_events:
+        type: boolean
+        description: Indicator if traffic type has any planned events
+        required: true
+      events:
+        type: TrafficTypeSituationEvent[]
+        description: Event list related to traffic type
+
+  TrafficTypeSituationEvent:
+    properties:
+      id:
+        type: integer
+        description: Identifier of the event
+        required: true
+      message:
+        type: string
+        description: Message for the event
+        required: true
+      line_numbers:
+        type: string
+        description: Lines affected by the event (comma-separated string)
+        required: false
+      traffic_group_name:
+        type: string
+        description: Name of the traffic group
+        required: false
+      is_expanded:
+        type: boolean
+        description: Indicator if high-priority event
+        required: true
+      is_planned:
+        type: boolean
+        description: Indicator if planned event
+        required: true
+      sort_index:
+        type: integer
+        description: Sort index for the event
+        required: true
+      event_info_url:
+        type: string
+        description: Link to web page containing more information abou the event
+        required: false
+      status_code:
+        type: TrafficTypeSituationStatusCode
+        description: Status code for the event
+  
+  TrafficTypeSituationStatusCode:
+    type: string
+    enum:
+      - MAJOR
+      - MINOR
+      - GOOD
+      - PLANNED
+
+  JP2DurationXSDType:
+    type: string
+    description: Duration in XSD duration format.
+    example: "PT1H28M"
+
+  JP2Minutes:
+    description: Time in minutes
+    minimum: 0
+    type: integer
+
+  JP2DistanceMeter:
+    description: Distance in meter
+    minimum: 0
+    type: integer
+
+  JP2TripLegType:
+    description: Type of trip leg
+    type: string
+    enum:
+      - JNY
+      - WALK
+      - BIKE
+
+  JP2LanguageCode:
+    type: string
+    enum:
+      - sv
+      - en
+    description: Code representing the language.
+    example: "sv"
+
+  JP2PlaceId:
+    description: Identifier of the place
+    type: string
+    example: QT0xQE89TW9kZ3VubnbDpGdlbiAoRGFuZGVyeWQpQFg9MTgwNTQ3NzFAWT01OTQxMDc2MEBVPTc0QEw9MzAwMTAyMTI4QEI9MUBwPTE1NzkxNDAxNzNA
+
+  JP2SiteId:
+    description: Identifier of the site
+    type: integer
+    example: 1002
+
+  JP2StopPointId:
+    description: Identifier of the stop point
+    type: integer
+    example: 41483
+
+  JP2StopPointName:
+    description: Name of the stop point
+    type: string
+    example: Universitetet
+
+  JP2StopPointDesignation:
+    description: Designation of the stop point
+    type: string
+    example: D
+
+  JP2LineName:
+    description: Identifier of the line
+    type: string
+    example: "19"
+
+  JP2ProductName:
+    description: Code representing a transport product":" BUS (Buss), METRO (Tunnelbana), TRAIN (Pendeltåg), LOCALTRAINTRAM (Lokalbana/spårvagn), BOAT (Båt) and LOCALBUS (Närtrafik)
+    type: string
+    example: BUS
+
+  JP2Address:
+    description: An address
+    properties:
+      name:
+        description: Name of the address
+        type: string
+        required: true
+        example: Sveavägen 44, Stockholm
+      longitude:
+        description: Longitude of the address coordinate
+        type: common.WGS84Longitude
+        required: true
+      latitude:
+        description: Latitude of the address coordinate
+        type: common.WGS84Latitude
+        required: true
+
+  JP2Poi:
+    description: A POI (Point of interest)
+    properties:
+      id: 
+        description: Identifier of the POI
+        type: string
+        required: true
+        example: "168189611"
+      name:
+        description: Name of the POI
+        type: string
+        required: true
+        example: Berghemsskolan
+      type:
+        description: POI type":" AMENITY, HISTORIC, LEISURE, SHOP or TOURISM
+        type: string
+        required: true
+        example: AMENITY
+      category:
+        description: POI category":" HOSPITAL, SCHOOL, THEATRE, UNIVERSITY, CASTLE, PARK, LIBRARY, MALL, ATTRACTION, CHALET, MUSEUM, VIEWPOINT or ZOO 
+        type: string
+        required: true
+        example: SCHOOL
+      common_name:
+        description: POI category":" Name of the area of the POI (kommun)
+        type: string
+        required: true
+        example: Järfälla
+      longitude:
+        description: Longitude of the POI coordinate
+        type: common.WGS84Longitude
+        required: true        
+      latitude:
+        description: Latitude of the POI coordinate
+        type: common.WGS84Latitude
+        required: true
+
+  JP2NamedPlace:
+    description: A named place (address, POI or site) that is known to the public    
+    properties:
+      place_id:
+        description: Identifier of the place
+        type: string
+        required: true
+      type:
+        description: Type of place
+        type: common.PlaceType
+        required: true
+        example: SITE
+      address:
+        description: If type is 'ADDRESS' then this element exists and contains an Address object
+        required: false
+        type: JP2Address
+      poi:
+        description: If type is 'POI' then this element exists and contains an POI object
+        required: false
+        type: JP2Poi
+      site:
+        description: If type is 'SITE' then this element exists and contains a Site object. 
+        required: false
+        properties:
+          id: 
+            type: JP2SiteId
+            required: true
+            example: 9115
+          href: 
+            type: common.HyperTextReference
+            required: true            
+          name:
+            description: Name of the site
+            type: string
+            required: true
+            example: Fridhemsplan
+          longitude:
+            description: Longitude of the site coordinate
+            type: common.WGS84Longitude
+            required: true
+          latitude:
+            description: Latitude of the site coordinate
+            type: common.WGS84Latitude
+            required: true
+          products:
+            description: List of products supported by site
+            type: JP2ProductName[]
+            required: true
+
+  JP2NearbyPlace:
+    description: A place (address, POI or site) related to a location by a distance
+    properties:
+      distance:
+        description: Distance from the location to place in meters
+        type: JP2DistanceMeter
+        required: true
+        example: 247
+      place:
+        properties:
+          place_id:
+            description: Identifier of the place
+            type: string
+            required: true
+          type:
+            description: Type of place
+            type: common.PlaceType
+            required: true
+            example: SITE
+          poi:
+            description: If type is 'POI' then this element exists and contains a POI object
+            required: false
+            type: JP2Poi
+          site:
+            description: If type is 'SITE' then this element exists and contains a Site object    
+            required: false 
+            properties:
+              id: 
+                type: JP2SiteId
+                required: true
+              href: 
+                type: common.HyperTextReference
+                required: true
+              stop_point:
+                properties:
+                  id: 
+                    type: JP2StopPointId
+                    required: true
+                  href: 
+                    type: common.HyperTextReference
+                    required: true                    
+                  name:
+                    type: JP2StopPointName
+                    required: true
+                required: false 
+              longitude:
+                description: Longitude of the site coordinate
+                type: common.WGS84Longitude
+                required: true
+              latitude:
+                description: Latitude of the site coordinate
+                type: common.WGS84Latitude
+                required: true
+              products:
+                description: List of products supported by site
+                type: JP2ProductName[]
+                required: true
+
+
+  JP2PolylineCoordinate:
+    description: A polyline coordinate
+    properties:
+      long:
+        description: Longitude of the site coordinate
+        type: common.WGS84Longitude
+      lat:
+        description: Latitude of the site coordinate
+        type: common.WGS84Longitude
+
+  JP2Polyline:
+    description: A polyline contains a list of coordinates describing a route
+    properties:
+      coordinates:
+        description: List of absolute coordinates for this polyline 
+        type: JP2PolylineCoordinate[]
+        required: true
+
+  JP2PolylineCoordinateWithIndex:
+    description: A polyline coordinate with index to be used for reference
+    properties:
+      index:
+        description: Index of the coordinate
+        type: integer
+        minimum: 1
+      long:
+        description: Longitude of the site coordinate
+        type: common.WGS84Longitude
+      lat:
+        description: Latitude of the site coordinate
+        type: common.WGS84Longitude
+
+  JP2PolylineWithIndex:
+    description: A polyline contains a list of coordinates describing a route
+    properties:
+      coordinates:
+        description: List of absolute coordinates for this polyline 
+        type: JP2PolylineCoordinateWithIndex[]
+        required: true
+
+  JP2RouteIndex:
+    type: integer
+    minimum: 0
+
+  JP2Note:
+    properties:
+      note_text:
+        description: Text in the note
+        type: string
+        required: true
+      key:
+        description: Identifier of the note. The identifier is a two letter combination further identifying the content of the note
+        type: string
+        required: false
+      type:
+        description: Type of note
+        required: false
+        type: string
+        enum:
+          - UNKNOWN
+          - ATTRIBUTE 
+          - INFOTEXT
+          - REALTIME 
+          - HINT 
+      priority:
+        description: Priority of the note
+        type: integer
+        required: false
+      route_index_from:
+        description: Index of the first stop in the route where this note is valid
+        type: JP2RouteIndex
+        required: false
+      route_index_to:
+        description: Index of the last stop in the route where this note is valid
+        type: JP2RouteIndex
+        required: false
+
+  JP2Message:
+    properties:
+      id:
+        description: Identifier of the message
+        type: string
+        required: true
+      act:
+        description: Indicator if message is actual or not?
+        type: boolean
+        required: true
+      header:
+        description: Header information of the message?
+        type: string
+        required: true
+      text:
+        description: Text in the message
+        type: string
+        required: true
+      priority:
+        description: Priority of the message
+        type: integer
+        required: true
+      route_index_from:
+        description: Index of the first stop in the route where this message is valid
+        type: JP2RouteIndex
+        required: false
+      route_index_to:
+        description: Index of the last stop in the route where this message is valid
+        type: JP2RouteIndex
+        required: false
+      event_period_start_datetime:
+        description: Start time for this message
+        type: common.ISO8601LocalDatetime
+        required: false
+      event_period_end_datetime:
+        description: End time for this message
+        type: common.ISO8601LocalDatetime
+        required: false
+
+  JP2ServiceDays:
+    description: Service days information
+    properties:
+      regular_service_days_text:
+        description: Text describing the regular service days
+        type: string
+        required: false
+      irregular_service_days_text:
+        description: Text describing the irregular service days
+        type: string
+        required: false
+      planning_period_start_date:
+        description: Start of the planning period of this data
+        type: date-only
+        required: false
+      planning_period_end_date:
+        description: End of the planning period of this data
+        type: date-only
+        required: false
+
+  JP2JourneyStatus:
+    description: Contains the status of the journey.
+    type: string
+    enum: 
+      - PLANNED
+      - REPLACEMENT 
+      - ADDITIONAL 
+      - SPECIAL 
+
+  JP2JourneyProduct:
+    description: Journey product used for specific journey
+    properties:
+      journey_product_name:
+        description: Name of journey product
+        type: string
+        required: false
+      journey_number:
+        description: Number representing the journey
+        type: string
+        required: false
+      line_designation:
+        description: Designation of the line
+        type: string
+        required: false
+      direction_text:
+        description: Direction information
+        type: string
+        required: false
+      product_category_code:
+        description: Code representing the product category to which the journey product belongs
+        type: string
+        required: false
+      operator_code:
+        description: Code representing the operator of the journey
+        type: string
+        required: false
+
+  JP2TariffFareItem:
+    properties:
+      name:
+        type: string
+        required: false
+      description:
+        type: string
+        required: false
+      price:
+        type: integer
+        required: false
+
+  JP2TariffFares:
+    properties:
+      name:
+        type: string
+        required: false
+      description:
+        type: string
+        required: false
+      fare_items:
+        type: JP2TariffFareItem[]
+        minItems: 1
+        required: false
+
+  JP2OriginDestinationTiming:
+    properties:
+      prognosis_type:
+        description: Type of prognosis like if the prognosis was reported by an external provider or calculated or corrected by the system
+        type: common.PrognosisType
+        required: false
+        example: REPORTED
+      scheduled_datetime:
+        description: Scheduled datetime 
+        type: common.ISO8601LocalDatetime
+        required: false
+      expected_datetime:
+        description: Expected datetime
+        type: common.ISO8601LocalDatetime
+        required: false
+  
+  JP2OriginDestination:
+    description: Origin describes the start of the leg, place and timing information
+    properties:
+      place: 
+        properties:
+          place_id:
+            description: Identifier of the place
+            type: string
+            required: true
+          type:
+            description: Type of place
+            type: common.PlaceType
+            required: true
+            example: SITE
+          address:
+            description: If type is 'ADDRESS' then this element exists and contains an Address object
+            type: JP2Address
+            required: false
+          poi:
+            description: If type is 'POI' then this element exists and contains a POI object
+            type: JP2Poi
+            required: false
+          site:
+            description: If type is 'SITE' then this element exists and contains a Site object    
+            required: false
+            properties:
+              id: 
+                type: JP2SiteId
+                required: true
+              href: 
+                type: common.HyperTextReference
+                required: true                
+              stop_point:
+                properties:
+                  id: 
+                    type: JP2StopPointId
+                    required: true
+                  href: 
+                    type: common.HyperTextReference
+                    required: true                    
+                  name:
+                    type: JP2StopPointName
+                    required: true
+                  designation:
+                    type: JP2StopPointDesignation
+                    required: false
+                required: false
+              entrance_point:
+                properties:
+                  id:
+                    description: Unique identifier of the entrance point
+                    type: integer
+                    example: 2531001
+                  href: 
+                    type: common.HyperTextReference
+                    required: true                    
+                  name:
+                    description: Name of the entrance point
+                    type: string
+                    example: Högalidsparken
+                required: false
+              longitude:
+                description: Longitude of the place coordinate
+                type: common.WGS84Longitude
+                required: true        
+              latitude:
+                description: Latitude of the place coordinate
+                type: common.WGS84Latitude
+                required: true
+      timing: JP2OriginDestinationTiming
+
+  JP2StopTiming:
+    properties:
+      arrival_prognosis_type:
+        description: Type of prognosis like if the prognosis was reported by an external provider or calculated or corrected by the system
+        type: common.PrognosisType
+        required: false
+        example: REPORTED
+      arrival_scheduled_datetime:
+        description: Scheduled time of arrival 
+        type: common.ISO8601LocalDatetime
+        required: false
+      arrival_expected_datetime:
+        description: Expected time of arrival
+        type: common.ISO8601LocalDatetime
+        required: false
+      departure_prognosis_type:
+        description: Type of prognosis like if the prognosis was reported by an external provider or calculated or corrected by the system
+        type: common.PrognosisType
+        required: false
+        example: REPORTED
+      departure_scheduled_datetime:
+        description: Scheduled time of departure 
+        type: common.ISO8601LocalDatetime
+        required: false
+      departure_expected_datetime:
+        description: Expected time of departure 
+        type: common.ISO8601LocalDatetime
+        required: false
+      passing_scheduled_datetime:
+        description: Scheduled time of passing 
+        type: common.ISO8601LocalDatetime
+        required: false
+      passing_expected_datetime:
+        description: Expected time of passing 
+        type: common.ISO8601LocalDatetime
+        required: false
+
+  JP2Stop:
+    description: Stop information
+    properties:
+      route_index:
+        description: Index of stop. Usually starting from 0 and incrementing by 1. If the route index value jumps, it is most likely that the journey was rerouted
+        type: JP2RouteIndex
+      place:
+        description: Site information
+        properties:
+          place_id:
+            description: Identifier of the place
+            type: string
+            required: true
+          type:
+            description: Type of place
+            type: common.PlaceType
+            required: true
+            example: SITE
+          site:
+            description: If type is 'SITE' then this element exists and contains a Site object    
+            required: true
+            properties:
+              id: 
+                type: JP2SiteId
+                required: true
+              href: 
+                type: common.HyperTextReference
+                required: true                
+              stop_point:
+                properties:
+                  id: 
+                    type: JP2StopPointId
+                    required: true
+                  href: 
+                    type: common.HyperTextReference
+                    required: true                    
+                  name:
+                    type: JP2StopPointName
+                    required: true
+                  designation:
+                    type: JP2StopPointDesignation
+                    required: false
+                required: false
+              longitude:
+                description: Longitude of the place location
+                type: common.WGS84Longitude
+                required: true        
+              latitude:
+                description: Latitude of the place location
+                type: common.WGS84Latitude
+                required: true
+      timing:
+        description: Timing information for the stop
+        type: JP2StopTiming
+        required: true
+
+  JP2JourneyDetail:
+    properties:
+      id:
+        description: Identifier of the journey detail
+        type: string
+        example: 1|10883|1|74|5122019
+        required: true
+      stops:
+        type: JP2Stop[]
+        description: Stops in the journey
+        minItems: 2
+        required: true
+      journey_status:
+        type: JP2JourneyStatus
+        description: Status of the journey
+        required: false
+      journey_product:
+        description: Journey product information
+        type: JP2JourneyProduct
+        required: false
+      messages:
+        type: JP2Message[]
+        description: Messages related to the journey
+        required: false
+      polyline:
+        type: JP2Polyline
+        description: Polyline describing the journey
+        required: false
+      service_days:
+        type: JP2ServiceDays
+        description: Service days for the journey
+        required: false
+      lastpass_route_index:
+        description: Last passed stop referencing the route index of that stop, even if out of this part of the journey.
+        type: JP2RouteIndex
+        required: false
+      realtime_lastpass_route_index:
+        description: Last passed stop referencing the route index of that stop, even if out of this part of the journey, real time situation.
+        type: JP2RouteIndex
+        required: false
+      is_cancelled:
+        description: Is this journey cancelled or not
+        type: boolean
+        required: false
+      is_part_cancelled:
+        description: Is this journey partially cancelled or not
+        type: boolean
+        required: false
+      is_reachable:
+        description: Is this journey reachable or not
+        type: boolean
+        required: false
+      is_redirected:
+        description: Is this journey redirected or not
+        type: boolean
+        required: false
+
+  JP2GisRouteLegGisRouteSegment:
+    description: A segment describes a specific step in a gis route
+    properties:
+      name:
+        description: Name of the segment
+        type: string
+        required: false
+      manoeuvre_code:
+        description: Code for the manoeuvre
+        type: string
+        enum:
+          - NOT_SET
+          - FROM
+          - TO
+          - ON
+          - LEFT
+          - RIGHT
+          - KEEP_LEFT
+          - KEEP_RIGHT
+          - HALF_LEFT
+          - HALF_RIGHT
+          - KEEP_HALF_LEFT
+          - KEEP_HALF_RIGHT
+          - SHARP_LEFT
+          - SHARP_RIGHT
+          - KEEP_SHARP_LEFT
+          - KEEP_SHARP_RIGHT
+          - STRAIGHT 
+          - U_TURN
+          - ENTER
+          - LEAVE
+          - ENTER_ROUNDABOUT
+          - STAY_IN_ROUNDABOUT
+          - LEAVE ROUNDABOUT
+          - ENTER_FERRY
+          - LEAVE_FERRY
+          - CHANGE_HIGHWAY
+          - CHECKIN_FERRY
+          - CHECKOUT_FERRY
+        required: false
+      manoeuvre_text:
+        description: Text description of the manoeuvre
+        type: string
+        required: false
+      orientation:
+        description: Orientation of the segment
+        required: false
+        type: string
+        enum:
+          - UNKNOWN
+          - NORTH
+          - SOUTH
+          - EAST
+          - WEST
+          - NORTHEAST
+          - SOUTHEAST
+          - NORTHWEST
+          - SOUTHWEST
+      polyline_start_coordinate_index:
+        description: If polyline exists, this value contains the index of the start coordinate for this segment in the polyline array
+        type: integer
+        required: false
+      polyline_end_coordinate_index:
+        description: If polyline exists, this value contains the index of the the end coordinate for this segment in the polyline array
+        type: integer
+        required: false
+      distance:
+        description: Distance for this segment in meter
+        type: JP2DistanceMeter
+        required: false
+
+  JP2GisRouteLegGisRoute:
+    properties:
+      segments:
+        description: List of segments describing the gis route
+        type: JP2GisRouteLegGisRouteSegment[]
+        minItems: 1
+        required: false
+      polyline:
+        description: Polyline with coordinates for the gis route
+        type: JP2PolylineWithIndex
+        required: false
+      distance:
+        description: Total distance for the gis route in meter
+        type: JP2DistanceMeter
+        required: false
+      duration:
+        description: Total duration for this gis route
+        type: JP2DurationXSDType
+        required: false
+
+  JP2GisRouteLeg:
+    properties:
+      type:
+        type: JP2TripLegType
+        description: Type of the gis route trip leg
+        required: true  
+      duration:
+        type: JP2DurationXSDType
+        description: Duration of the gis route trip leg
+        required: false  
+      distance:
+        type: JP2DistanceMeter
+        description: Distance for the gis route trip leg
+        required: false
+        example: 247  
+      origin:
+        type: JP2OriginDestination
+        description: Origin in the gis route trip leg
+        required: true
+      destination:
+        type: JP2OriginDestination
+        description: Destination in the gis route trip leg
+        required: true
+      gis_route:
+        type: JP2GisRouteLegGisRoute
+        required: false     
+
+  JP2GisRoute:
+    properties:
+      id:
+        description: Identifier of the gis route
+        type: string
+      trip_leg:
+        description: Trip leg of a gis route type
+        type: JP2GisRouteLeg
+        required: true
+
+  JP2TripTripLeg:
+    properties:
+      index:
+        type: integer
+        description: Index of the trip leg starting from 0 and incrementing by 1.
+        minimum: 0
+        required: true  
+      type:
+        type: JP2TripLegType
+        description: Type of the trip leg
+        required: true  
+      duration:
+        type: JP2DurationXSDType
+        description: Duration of the trip leg
+        required: false  
+      distance:
+        type: JP2DistanceMeter
+        description: Distance of the trip leg
+        required: false
+        example: 247  
+      is_cancelled:
+        description: Is this journey cancelled or not
+        type: boolean
+        required: false
+      is_part_cancelled:
+        description: Is this journey partially cancelled or not
+        type: boolean
+        required: false
+      is_reachable:
+        description: Is this journey reachable or not
+        type: boolean
+        required: false
+      is_redirected:
+        description: Is this journey redirected or not
+        type: boolean
+        required: false
+      is_hidden:
+        description: Is this journey hidden or not
+        type: boolean
+        required: false
+      origin:
+        type: JP2OriginDestination
+        description: Origin in the tripleg
+        required: true
+      destination:
+        type: JP2OriginDestination
+        description: Destination in the tripleg
+        required: true
+      gis_route_id:
+        type: string
+        description: Identifier of the gis route for this trip leg
+        required: false  
+      gis_route_href: 
+        type: common.HyperTextReference
+        required: false        
+      journey_detail_id:
+        type: string
+        description: Identifier of the journey detail for this trip leg
+        required: false
+      journey_detail_href: 
+        type: common.HyperTextReference
+        required: false        
+      journey_status:
+        type: JP2JourneyStatus
+        description: Status of the journey trip leg
+        required: false
+      journey_product:
+        type: JP2JourneyProduct
+        description: Status of the journey trip leg
+        required: false  
+      messages:
+        type: JP2Message[]
+        description: Messages related to the journey
+        required: false
+      polyline:
+        type: JP2Polyline
+        description: Polyline describing the trip leg
+        required: false
+      stops:
+        type: JP2Stop[]
+        description: Stops in the trip leg
+        minItems: 2
+        required: false
+
+  JP2Trip:
+    properties:
+      id:
+        description: Identifier of the trip
+        type: string
+        required: true
+      href: 
+        type: common.HyperTextReference
+        required: true        
+      index:
+        description: Index of this trip in the result list
+        type: integer
+        required: false
+      duration:
+        description: Duration of the trip
+        type: JP2DurationXSDType
+        required: true
+      is_alternative:
+        description: Is alternative or not
+        type: boolean
+        required: false
+      is_valid:
+        description: Is valid or not
+        type: boolean
+        required: false
+      is_return:
+        description: Is return journey or not
+        type: boolean
+        required: false
+      messages:
+        type: JP2Message[]
+        description: Messages related to the journey
+        required: false
+      trip_legs:
+        type: JP2TripTripLeg[]
+        description: Trip legs
+        minItems: 1
+        required: false
+      service_days:
+        description: Service days information for the trip
+        type: JP2ServiceDays
+        required: false
+      tariff_fares:
+        description: Tariff fares for a trip
+        type: JP2TariffFares
+        required: false
+
+  JP2SearchTripsRequestViaSite:
+    properties:
+      site_place_id:
+        description: Place id for the via site
+        type: JP2PlaceId
+        required: true
+      wait_time:
+        description: Wait time in minutes in via site
+        type: JP2Minutes
+        minimum: 0
+        required: false
+      status:
+        description: Status for the via site
+        required: false
+        type: string
+        enum: 
+          - BOARDING_AND_ALIGHTING_NECESSARY
+          - BOARDING_NOT_NECESSARY
+          - ALIGHTING_NOT_NECESSARY
+          - BOARDING_AND_ALIGHTING_NOT_NECESSARY
+      products:
+        description: Products allowed to be used in via site. If omitted, all products are allowed.
+        type: JP2ProductName[]
+        required: false
+
+  JP2SearchTripsRequestAvoidSite:
+    properties:
+      site_place_id:
+        description: Place id for the avoid site
+        type: JP2PlaceId
+        required: true
+      status:
+        description: Status for the avoid site
+        type: string
+        required: false
+        enum: 
+          - DO_NOT_RUN_THROUGH_IF_METASTATION
+          - DO_NOT_RUN_THROUGH
+          - DO_NOT_CHANGE_IF_METASTATION
+          - DO_NOT_CHANGE
+
+
+  JP2SearchTripsRequestTripBeginningEndInfo:
+    description: Trip beginning or trip end info
+    properties:
+      type:
+        description: Type of trip beginning or trip end
+        required: true
+        type: JP2TripLegType
+        enum:
+          - WALK
+          - BIKE
+      minimum_distance:
+        description: Minimimum distance
+        type: JP2DistanceMeter
+        required: false
+      maximum_distance:
+        description: Maximum distance
+        type: JP2DistanceMeter
+        required: false
+      speed:
+        description: Speed in transport. 100 specifies normal (default). < 100 is faster, > 100 is slower
+        type: integer
+        required: false
+      use_bee_line:
+        description: Use Bee line calculation
+        type: boolean
+        required: false
+
+  JP2SearchTripsRequest:
+    additionalProperties: false
+    properties:
+      language_code:
+        description: Code representing the language to be used in response
+        type: JP2LanguageCode
+        required: false
+        default: sv
+      origin_place_id:
+        description: Identifier of the place (address, POI or site) for the origin received from nearby places or named places operations
+        type: JP2PlaceId
+        required: false
+      origin_coordinates:
+        description:  WGS84 coordinates for the geographical position of the origin
+        required: false
+        additionalProperties: false
+        properties:
+          longitude:
+            description: WGS84 longitude of the geographical origin position
+            type: common.WGS84Longitude
+            required: true
+          latitude: 
+            description: WGS84 latitude of the geographical origin position
+            type: common.WGS84Latitude
+            required: true
+      dest_place_id:
+        description: Identifier of a place (address, POI or site) for the destination received from nearby places or named places operations.
+        type: string
+        required: false
+      dest_coordinates:
+        description:  WGS84 coordinates for the geographical position of the destination
+        required: false
+        additionalProperties: false
+        properties:
+          longitude:
+            description: WGS84 longitude of the geographical destination position
+            type: common.WGS84Longitude
+            required: true
+          latitude: 
+            description: WGS84 latitude of the geographical destination position
+            type: common.WGS84Latitude
+            required: true
+      via_sites:
+        description: Sites to pass in the trip
+        type: JP2SearchTripsRequestViaSite[]
+        required: false
+      avoid_sites:
+        description: Sites to avoid in the trip
+        type: JP2SearchTripsRequestAvoidSite[]
+        required: false
+      extend_change_time_percentage:
+        description: Change time extension in percentage. 200 means that the change times will be doubled.
+        type: number
+        minimum: 1
+        required: false
+        default: 100
+      min_change_time:
+        description: Minimum change time
+        type: JP2Minutes
+        minimum: 0
+        maximum: 15
+        required: false
+      max_change_time:
+        description: Maximum change time
+        type: JP2Minutes
+        minimum: 0
+        maximum: 15
+        required: false
+      additional_change_time:
+        description: Additional change time
+        type: JP2Minutes
+        minimum: 0
+        maximum: 15
+        required: false
+      max_changes_count:
+        description: Maximum changes count
+        type: integer
+        minimum: 0
+        maximum: 11
+        required: false
+      datetime:
+        description: Specifies datetime to be used in trip searches
+        type: common.ISO8601LocalDatetime
+        required: false
+      is_datetime_search_arrivals:
+        description: Is datetime search for arrival time (true) or departure time (false)
+        type: boolean
+        required: false
+      min_trips_count_before_time:
+        description: Minimum number of trips before specified date and time. Default is 4. Can be used together with min_trips_count_after_time. Total number of trips (min_trips_count_before_time + min_trips_count_after_time) must not exceed 6
+        type: integer
+        minimum: 0
+        maximum: 6
+        required: false
+      min_trips_count_after_time:
+        description: Minimum number of trips after specified date and time. Default is 1. Can be used together with min_trips_count_before_time. Total number of trips (min_trips_count_before_time + min_trips_count_after_time) must not exceed 6
+        type: integer
+        minimum: 0
+        maximum: 6
+        required: false
+      include_products:
+        description: Specifies what products that are allowed in trip. If omitted, all products are allowed
+        type: JP2ProductName[]
+        required: false
+      include_line_ids:
+        description: Specifies a list of names for lines that should be included in trip. If omitted, all lines are included
+        type: JP2LineName[]
+        required: false
+      exclude_line_ids:
+        description: Specifies a list of names for lines that should be excluded in trip. If omitted, no line is excluded
+        type: JP2LineName[]
+        required: false
+      context:
+        description: Context for a scroll request forwards or backwards
+        type: string
+        required: false
+      enable_poly:
+        description: Enables polyline or not
+        type: boolean
+        required: false
+        default: false
+      enable_passlist:
+        description: Enables passlist or not
+        type: boolean
+        required: false
+        default: false
+      enable_show_passing_points:
+        description: Enables or not the return of stops having no alighting and no boarding in its passlist for each leg of the trip. Needs enable_passlist parameter set to true
+        type: boolean
+        required: false
+        default: false
+      trip_beginning:
+        description: Trip beginning configuration
+        additionalProperties: false
+        type: JP2SearchTripsRequestTripBeginningEndInfo
+        required: false
+      trip_end:
+        description: Trip end configuration
+        additionalProperties: false
+        type: JP2SearchTripsRequestTripBeginningEndInfo
+        required: false
+
+  JP2SearchTripsResponse:
+    properties:
+      trips:
+        description: Trips in the search result
+        type: JP2Trip[]
+        minItems: 1        
+        required: false
+      search_previous_trips_link:
+        description: Link to search previous trips before resultset
+        type: string
+        required: true
+      search_next_trips_link:
+        description: Link to search next trips before resultset
+        type: string
+        required: true
+
+  JP2TimeTableInfo:
+    properties:
+      period_start_date:
+        description: Start date for available time table period
+        type: date-only
+        required: true
+      period_end_date:
+        description: End date for available time table period
+        type: date-only
+        required: true

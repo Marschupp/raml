@@ -1,0 +1,207 @@
+[
+  {
+    "importance_level": 2,
+    "public_note": "Tack för att ni visar hänsyn och sprider ut er i kollektivtrafiken!",
+    "lines": [
+      {
+        "id": 156,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/156",
+        "designation": "156"
+      },
+      {
+        "id": 157,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/157",
+        "designation": "157"
+      },
+      {
+        "id": 178,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/178",
+        "designation": "178",
+        "group_of_lines": "Blåbuss"
+      },
+      {
+        "id": 508,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/508",
+        "designation": "508"
+      },
+      {
+        "id": 509,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/509",
+        "designation": "509"
+      },
+      {
+        "id": 601,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/601",
+        "designation": "601"
+      },
+      {
+        "id": 602,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/602",
+        "designation": "602"
+      },
+      {
+        "id": 604,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/604",
+        "designation": "604"
+      },
+      {
+        "id": 605,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/605",
+        "designation": "605"
+      },
+      {
+        "id": 606,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/606",
+        "designation": "606"
+      },
+      {
+        "id": 607,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/607",
+        "designation": "607"
+      },
+      {
+        "id": 609,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/609",
+        "designation": "609"
+      },
+      {
+        "id": 610,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/610",
+        "designation": "610"
+      },
+      {
+        "id": 611,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/611",
+        "designation": "611"
+      },
+      {
+        "id": 612,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/612",
+        "designation": "612"
+      },
+      {
+        "id": 613,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/613",
+        "designation": "613"
+      },
+      {
+        "id": 618,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/618",
+        "designation": "618"
+      },
+      {
+        "id": 624,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/624",
+        "designation": "624"
+      },
+      {
+        "id": 626,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/626",
+        "designation": "626"
+      },
+      {
+        "id": 628,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/628",
+        "designation": "628"
+      },
+      {
+        "id": 629,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/629",
+        "designation": "629"
+      },
+      {
+        "id": 670,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/670",
+        "designation": "670",
+        "group_of_lines": "Blåbuss"
+      },
+      {
+        "id": 680,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/680",
+        "designation": "680"
+      },
+      {
+        "id": 683,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/683",
+        "designation": "683"
+      },
+      {
+        "id": 690,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/690",
+        "designation": "690"
+      },
+      {
+        "id": 691,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/691",
+        "designation": "691"
+      },
+      {
+        "id": 694,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/694",
+        "designation": "694"
+      },
+      {
+        "id": 695,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/695",
+        "designation": "695"
+      },
+      {
+        "id": 697,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/697",
+        "designation": "697"
+      },
+      {
+        "id": 698,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/698",
+        "designation": "698"
+      },
+      {
+        "id": 699,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/699",
+        "designation": "699"
+      },
+      {
+        "id": 927,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/927",
+        "designation": "27",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 929,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/929",
+        "designation": "29",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 944,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/944",
+        "designation": "28",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 945,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/945",
+        "designation": "28",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 947,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/947",
+        "designation": "28",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 956,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/956",
+        "designation": "28",
+        "group_of_lines": "Ersättningsbuss"
+      },
+      {
+        "id": 962,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/962",
+        "designation": "27",
+        "group_of_lines": "Ersättningsbuss"
+      }
+    ]
+  }
+]

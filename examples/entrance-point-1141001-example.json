@@ -1,0 +1,16 @@
+{
+  "id": 1141001,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1141001",
+  "name": "Torsgatan Karlbergsvägen",
+  "latitude": 59.3418242181633,
+  "longitude": 18.0376923758128,
+  "valid_period": {
+    "valid_from": "2019-04-11T00:00:00"
+  },
+  "stop_area": {
+    "id": 1141,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1141",
+    "name": "S:t Eriksplan",
+    "type": "METROSTN"
+  }
+}

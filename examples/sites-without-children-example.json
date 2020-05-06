@@ -1,0 +1,35 @@
+ [{
+    "id": 1030,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1030",
+    "name": "Stadsbiblioteket",
+    "alias_names": [
+      "Sveavägen/Odengatan",
+      "Odengatan/Sveavägen"
+    ],
+    "latitude": 59.3442961128439,
+    "longitude": 18.0553124202118,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  },
+  {
+    "id": 1031,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1031",
+    "name": "Handelshögskolan",
+    "latitude": 59.3419320573214,
+    "longitude": 18.0575293279589,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  },
+  {
+    "id": 1032,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1032",
+    "name": "Rådmansgatan (på Sveavägen)",
+    "latitude": 59.3401610063806,
+    "longitude": 18.0592051260427,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  }
+  ]

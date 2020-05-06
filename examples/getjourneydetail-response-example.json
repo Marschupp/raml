@@ -1,0 +1,288 @@
+{
+  "id": "MXw1NjgxfDJ8NzR8MjMwNDIwMjA=",
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/trip-planner/journey-details/MXw1NjgxfDJ8NzR8MjMwNDIwMjA=",
+  "stops": [
+    {
+      "route_index": 0,
+      "place": {
+        "place_id": "QT0xQE89TGlsamVob2xtZW5AWD0xODAyMzA5M0BZPTU5MzEwNzEwQFU9NzRATD00MDAxMDI2MDNA",
+        "type": "SITE",
+        "site": {
+          "id": 9294,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9294",
+          "stop_point": {
+            "id": 2603,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2603",
+            "name": "Liljeholmen",
+            "designation": "2"
+          },
+          "longitude": 18.023093,
+          "latitude": 59.310710
+        }
+      },
+      "timing": {
+        "departure_prognosis_type": "PROGNOSED",
+        "departure_scheduled_datetime": "2020-04-23T14:41:00"
+      }
+    },
+    {
+      "route_index": 1,
+      "place": {
+        "place_id": "QT0xQE89SG9ybnN0dWxsQFg9MTgwMzU1NDNAWT01OTMxNTk2MEBVPTc0QEw9NDAwMTAyNTMxQA==",
+        "type": "SITE",
+        "site": {
+          "id": 9295,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9295",
+          "stop_point": {
+            "id": 2531,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2531",
+            "name": "Hornstull",
+            "designation": "1"
+          },
+          "longitude": 18.035543,
+          "latitude": 59.315960
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:42:00",
+        "departure_scheduled_datetime": "2020-04-23T14:42:00"
+      }
+    },
+    {
+      "route_index": 2,
+      "place": {
+        "place_id": "QT0xQE89Wmlua2Vuc2RhbW1AWD0xODA0OTY5MkBZPTU5MzE3NzA0QFU9NzRATD00MDAxMDI1MjFA",
+        "type": "SITE",
+        "site": {
+          "id": 9296,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9296",
+          "stop_point": {
+            "id": 2521,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2521",
+            "name": "Zinkensdamm",
+            "designation": "1"
+          },
+          "longitude": 18.049692,
+          "latitude": 59.317704
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:44:00",
+        "departure_scheduled_datetime": "2020-04-23T14:44:00"
+      }
+    },
+    {
+      "route_index": 3,
+      "place": {
+        "place_id": "QT0xQE89TWFyaWF0b3JnZXRAWD0xODA2MjExNUBZPTU5MzE3MDEyQFU9NzRATD00MDAxMDI1MTFA",
+        "type": "SITE",
+        "site": {
+          "id": 9297,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9297",
+          "stop_point": {
+            "id": 2511,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2511",
+            "name": "Mariatorget",
+            "designation": "1"
+          },
+          "longitude": 18.062115,
+          "latitude": 59.317012
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:45:00",
+        "departure_scheduled_datetime": "2020-04-23T14:45:00"
+      }
+    },
+    {
+      "route_index": 4,
+      "place": {
+        "place_id": "QT0xQE89U2x1c3NlbkBYPTE4MDcxNDkxQFk9NTkzMTk1MTFAVT03NEBMPTQwMDEwMjAxMUA=",
+        "type": "SITE",
+        "site": {
+          "id": 9192,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9192",
+          "stop_point": {
+            "id": 2011,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2011",
+            "name": "Slussen",
+            "designation": "2"
+          },
+          "longitude": 18.071491,
+          "latitude": 59.319511
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:47:00",
+        "departure_scheduled_datetime": "2020-04-23T14:47:00"
+      }
+    },
+    {
+      "route_index": 5,
+      "place": {
+        "place_id": "QT0xQE89R2FtbGEgc3RhbkBYPTE4MDY3MTY3QFk9NTkzMjMxODdAVT03NEBMPTQwMDEwMjAyMUA=",
+        "type": "SITE",
+        "site": {
+          "id": 1345,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1345",
+          "stop_point": {
+            "id": 2021,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2021",
+            "name": "Gamla stan",
+            "designation": "2"
+          },
+          "longitude": 18.067167,
+          "latitude": 59.323187
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:48:00",
+        "departure_scheduled_datetime": "2020-04-23T14:48:00"
+      }
+    },
+    {
+      "route_index": 6,
+      "place": {
+        "place_id": "QT0xQE89VC1DZW50cmFsZW5AWD0xODA2MTQ3N0BZPTU5MzMxMzU4QFU9NzRATD00MDAxMDEwNTFA",
+        "type": "SITE",
+        "site": {
+          "id": 1002,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1002",
+          "stop_point": {
+            "id": 1051,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+            "name": "T-Centralen",
+            "designation": "3"
+          },
+          "longitude": 18.061477,
+          "latitude": 59.331358
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:51:00",
+        "departure_scheduled_datetime": "2020-04-23T14:51:00"
+      }
+    },
+    {
+      "route_index": 7,
+      "place": {
+        "place_id": "QT0xQE89w5ZzdGVybWFsbXN0b3JnQFg9MTgwNzYzODFAWT01OTMzNDk3MkBVPTc0QEw9NDAwMTAyMTAxQA==",
+        "type": "SITE",
+        "site": {
+          "id": 9206,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9206",
+          "stop_point": {
+            "id": 2101,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2101",
+            "name": "Östermalmstorg",
+            "designation": "1"
+          },
+          "longitude": 18.076381,
+          "latitude": 59.334972
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:53:00",
+        "departure_scheduled_datetime": "2020-04-23T14:53:00"
+      }
+    },
+    {
+      "route_index": 8,
+      "place": {
+        "place_id": "QT0xQE89S2FybGFwbGFuQFg9MTgwOTE5OTZAWT01OTMzODk5MEBVPTc0QEw9NDAwMTAyMTExQA==",
+        "type": "SITE",
+        "site": {
+          "id": 1115,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1115",
+          "stop_point": {
+            "id": 2111,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2111",
+            "name": "Karlaplan",
+            "designation": "1"
+          },
+          "longitude": 18.091996,
+          "latitude": 59.338990
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:54:00",
+        "departure_scheduled_datetime": "2020-04-23T14:54:00"
+      }
+    },
+    {
+      "route_index": 9,
+      "place": {
+        "place_id": "QT0xQE89R8OkcmRldEBYPTE4MDk4OTcxQFk9NTkzNDUxNTdAVT03NEBMPTQwMDEwMjEyMUA=",
+        "type": "SITE",
+        "site": {
+          "id": 9221,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9221",
+          "stop_point": {
+            "id": 2121,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2121",
+            "name": "Gärdet",
+            "designation": "1"
+          },
+          "longitude": 18.098971,
+          "latitude": 59.345157
+        }
+      },
+      "timing": {
+        "arrival_scheduled_datetime": "2020-04-23T14:56:00",
+        "departure_scheduled_datetime": "2020-04-23T14:56:00"
+      }
+    },
+    {
+      "route_index": 10,
+      "place": {
+        "place_id": "QT0xQE89Um9wc3RlbkBYPTE4MTAzMDc5QFk9NTkzNTc0OTlAVT03NEBMPTQwMDEwMjEzMUA=",
+        "type": "SITE",
+        "site": {
+          "id": 9220,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9220",
+          "stop_point": {
+            "id": 2131,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2131",
+            "name": "Ropsten"
+          },
+          "longitude": 18.103079,
+          "latitude": 59.357499
+        }
+      },
+      "timing": {
+        "arrival_prognosis_type": "PROGNOSED",
+        "arrival_scheduled_datetime": "2020-04-23T14:59:00"
+      }
+    }
+  ],
+  "journey_status": "PLANNED",
+  "journey_product": {
+    "journey_product_name": "Tunnelbanans röda linje 13",
+    "journey_number": "20282",
+    "line_designation": "13",
+    "direction_text": "Ropsten",
+    "product_category_code": "METRO",
+    "operator_code": "SL"
+  },
+  "polyline": {
+    "coordinates": [
+      {
+        "long": 18.023093,
+        "lat": 59.310710
+      },
+      {
+        "long": 18.025421,
+        "lat": 59.311564
+      },
+      {
+        "long": 18.026392,
+        "lat": 59.311969
+      }
+    ]
+  },
+  "service_days": {
+    "regular_service_days_text": "mån - tor",
+    "irregular_service_days_text": "utom 30. apr, 20., 21. maj"
+  },
+  "is_reachable": true
+}

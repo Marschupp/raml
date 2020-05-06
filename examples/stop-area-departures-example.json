@@ -1,0 +1,86 @@
+[
+  {
+    "destination_name": "Hagsätra",
+    "direction_code": 2,
+    "display_time": "Nu",
+    "scheduled_datetime": "2020-03-06T17:04:15",
+    "journey": {
+      "id": 13188,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19/journeys/13188"
+    },
+    "stop_area": {
+      "id": 1211,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+      "name": "Stora mossen",
+      "type": "METROSTN"
+    },
+    "stop_point": {
+      "id": 1212,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1212",
+      "name": "Stora mossen"
+    },
+    "line": {
+      "id": 19,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+      "designation": "19",
+      "group_of_lines": "Tunnelbanans gröna linje"
+    },
+    "deviations": []
+  },
+  {
+    "destination_name": "Åkeshov",
+    "direction_code": 1,
+    "display_time": "1 min",
+    "scheduled_datetime": "2020-03-06T17:05:30",
+    "journey": {
+      "id": 13081,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17/journeys/13081"
+    },
+    "stop_area": {
+      "id": 1211,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+      "name": "Stora mossen",
+      "type": "METROSTN"
+    },
+    "stop_point": {
+      "id": 1211,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1211",
+      "name": "Stora mossen"
+    },
+    "line": {
+      "id": 17,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+      "designation": "17",
+      "group_of_lines": "Tunnelbanans gröna linje"
+    },
+    "deviations": []
+  },
+  {
+    "destination_name": "Farsta strand",
+    "direction_code": 2,
+    "display_time": "2 min",
+    "scheduled_datetime": "2020-03-06T17:06:45",
+    "journey": {
+      "id": 12794,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18/journeys/12794"
+    },
+    "stop_area": {
+      "id": 1211,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+      "name": "Stora mossen",
+      "type": "METROSTN"
+    },
+    "stop_point": {
+      "id": 1212,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1212",
+      "name": "Stora mossen"
+    },
+    "line": {
+      "id": 18,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+      "designation": "18",
+      "group_of_lines": "Tunnelbanans gröna linje"
+    },
+    "deviations": []
+  }
+]

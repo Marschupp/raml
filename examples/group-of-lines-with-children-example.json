@@ -1,0 +1,503 @@
+[
+  {
+    "code": "BB",
+    "name": "Blåbuss",
+    "lines": [
+      {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/1",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 2,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/2",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 3,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/3",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 4,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/4",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 6,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/6",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 172,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/172",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 173,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/173",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 176,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/176",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 177,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/177",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 178,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/178",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 179,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/179",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 471,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/471",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 474,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/474",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 670,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/670",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 676,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/676",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 677,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/677",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 873,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/873",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 875,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/875",
+        "transport_mode": "BUS"
+      }
+    ]
+  },
+  {
+    "code": "ERSB",
+    "name": "Ersättningsbuss",
+    "lines": [
+      {
+        "id": 912,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/912",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 919,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/919",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 920,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/920",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 922,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/922",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 924,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/924",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 925,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/925",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 927,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/927",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 928,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/928",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 929,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/929",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 944,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/944",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 945,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/945",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 946,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/946",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 947,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/947",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 948,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/948",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 949,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/949",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 950,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/950",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 956,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/956",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 957,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/957",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 958,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/958",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 962,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/962",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 963,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/963",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 964,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/964",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 965,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/965",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 966,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/966",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 967,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/967",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 970,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/970",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 982,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/982",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 983,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/983",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 986,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/986",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 987,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/987",
+        "transport_mode": "BUS"
+      }
+    ]
+  },
+  {
+    "code": "FL",
+    "name": "Fjäderholmslinjen",
+    "lines": [
+      {
+        "id": 261,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/261",
+        "transport_mode": "SHIP"
+      }
+    ]
+  },
+  {
+    "code": "LB",
+    "name": "Lidingöbanan",
+    "lines": [
+      {
+        "id": 21,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/21",
+        "transport_mode": "TRAM"
+      }
+    ]
+  },
+  {
+    "code": "",
+    "name": "Lisen/Lotten",
+    "lines": [
+      {
+        "id": 260,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/260",
+        "transport_mode": "SHIP"
+      }
+    ]
+  },
+  {
+    "code": "NB",
+    "name": "Nockebybanan",
+    "lines": [
+      {
+        "id": 12,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/12",
+        "transport_mode": "TRAM"
+      }
+    ]
+  },
+  {
+    "code": "FT",
+    "name": "Närtrafiken",
+    "lines": [
+      {
+        "id": 921,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/921",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 923,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/923",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 953,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/953",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 978,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/978",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 979,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/979",
+        "transport_mode": "BUS"
+      },
+      {
+        "id": 981,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/981",
+        "transport_mode": "BUS"
+      }
+    ]
+  },
+  {
+    "code": "PB",
+    "name": "Pendelbåt",
+    "lines": [
+      {
+        "id": 80,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/80",
+        "transport_mode": "SHIP"
+      },
+      {
+        "id": 82,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/82",
+        "transport_mode": "SHIP"
+      },
+      {
+        "id": 89,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/89",
+        "transport_mode": "SHIP"
+      }
+    ]
+  },
+  {
+    "code": "PT",
+    "name": "Pendeltåg",
+    "lines": [
+      {
+        "id": 40,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/40",
+        "transport_mode": "TRAIN"
+      },
+      {
+        "id": 41,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/41",
+        "transport_mode": "TRAIN"
+      },
+      {
+        "id": 42,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/42",
+        "transport_mode": "TRAIN"
+      },
+      {
+        "id": 43,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/43",
+        "transport_mode": "TRAIN"
+      },
+      {
+        "id": 44,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/44",
+        "transport_mode": "TRAIN"
+      },
+      {
+        "id": 48,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/48",
+        "transport_mode": "TRAIN"
+      }
+    ]
+  },
+  {
+    "code": "RB",
+    "name": "Roslagsbanan",
+    "lines": [
+      {
+        "id": 27,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/27",
+        "transport_mode": "TRAM"
+      },
+      {
+        "id": 28,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+        "transport_mode": "TRAM"
+      },
+      {
+        "id": 29,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/29",
+        "transport_mode": "TRAM"
+      }
+    ]
+  },
+  {
+    "code": "SB",
+    "name": "Saltsjöbanan",
+    "lines": [
+      {
+        "id": 25,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/25",
+        "transport_mode": "TRAM"
+      },
+      {
+        "id": 26,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/26",
+        "transport_mode": "TRAM"
+      }
+    ]
+  },
+  {
+    "code": "SC",
+    "name": "Spårväg City",
+    "lines": [
+      {
+        "id": 7,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/7",
+        "transport_mode": "TRAM"
+      }
+    ]
+  },
+  {
+    "code": "TUB3",
+    "name": "Tunnelbanans blå linje",
+    "lines": [
+      {
+        "id": 10,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+        "transport_mode": "METRO"
+      },
+      {
+        "id": 11,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+        "transport_mode": "METRO"
+      }
+    ]
+  },
+  {
+    "code": "TUB1",
+    "name": "Tunnelbanans gröna linje",
+    "lines": [
+      {
+        "id": 17,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+        "transport_mode": "METRO"
+      },
+      {
+        "id": 18,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+        "transport_mode": "METRO"
+      },
+      {
+        "id": 19,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+        "transport_mode": "METRO"
+      }
+    ]
+  },
+  {
+    "code": "TUB2",
+    "name": "Tunnelbanans röda linje",
+    "lines": [
+      {
+        "id": 13,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+        "transport_mode": "METRO"
+      },
+      {
+        "id": 14,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+        "transport_mode": "METRO"
+      }
+    ]
+  },
+  {
+    "code": "TvB",
+    "name": "Tvärbanan",
+    "lines": [
+      {
+        "id": 22,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/22",
+        "transport_mode": "TRAM"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "code": "BB",
+    "name": "Blåbuss"
+  },
+  {
+    "code": "EM",
+    "name": "Emelie"
+  },
+  {
+    "code": "ERSB",
+    "name": "Ersättningsbuss"
+  },
+  {
+    "code": "FL",
+    "name": "Fjäderholmslinjen"
+  },
+  {
+    "code": "LB",
+    "name": "Lidingöbanan"
+  },
+  {
+    "code": "",
+    "name": "Lisen/Lotten"
+  },
+  {
+    "code": "NB",
+    "name": "Nockebybanan"
+  },
+  {
+    "code": "FT",
+    "name": "Närtrafiken"
+  },
+  {
+    "code": "PB",
+    "name": "Pendelbåt"
+  },
+  {
+    "code": "PT",
+    "name": "Pendeltåg"
+  },
+  {
+    "code": "RB",
+    "name": "Roslagsbanan"
+  },
+  {
+    "code": "SB",
+    "name": "Saltsjöbanan"
+  },
+  {
+    "code": "SC",
+    "name": "Spårväg City"
+  },
+  {
+    "code": "",
+    "name": "Testlinje för reseplanerartest"
+  },
+  {
+    "code": "TUB3",
+    "name": "Tunnelbanans blå linje"
+  },
+  {
+    "code": "TUB1",
+    "name": "Tunnelbanans gröna linje"
+  },
+  {
+    "code": "TUB2",
+    "name": "Tunnelbanans röda linje"
+  },
+  {
+    "code": "TvB",
+    "name": "Tvärbanan"
+  }
+]

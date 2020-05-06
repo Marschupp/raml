@@ -1,0 +1,223 @@
+#%RAML 1.0 Library
+types:
+    
+  WeekdaysType:
+    description: Describes the day of the week
+    type: string
+    enum:
+      - MON
+      - TUE
+      - WED
+      - THU
+      - FRI
+      - SAT
+      - SUN
+  
+  StopAreaType:
+    description: Describes the type of stoparea
+    type: string
+    enum:
+      - BUSTERM
+      - METROSTN
+      - TRAMSTN
+      - RAILWSTN
+      - SHIPBER
+      - FERRYBER
+
+  PlaceType:
+    description: Describes the type of place
+    type: string
+    enum:
+      - POI
+      - SITE
+      - ADDRESS
+
+  LegType:
+    description: Describes the type of leg
+    type: string
+    enum:
+      - JNY
+      - WALK
+      - TRSF
+      - BIKE
+      - KISS
+      - PARK
+      - TAXI
+      - CHKI
+      - CHKO
+      - TETA
+
+  StopPointType:
+    description: Describes the type of stop point
+    type: string
+    enum:
+      - PLATFORM
+      - BUSSTOP
+      - REFUGE
+      - PIER
+      - UNKNOWN
+
+  TransportMode:
+    description: Transport mode for a line
+    type: string
+    enum:
+      - BUS
+      - METRO
+      - TRAM
+      - TRAIN
+      - SHIP
+      - FERRY	
+
+  DirectionCode: 
+    description: Direction identifier 1,2 back and forth directions and 0 for unidentified direction
+    type: integer
+    enum:
+    - 1
+    - 2
+    - 0  
+
+  PrognosisType:
+    description: PrognosisType provides the type of the prognosis
+    type: string
+    enum:
+      - PROGNOSED
+      - MANUAL
+      - REPORTED
+      - CORRECTED
+      - CALCULATED
+
+  DepartureType:
+    description: Type of departure
+    type: string
+    enum:
+      - NO_STOP
+      - NO_BOARDING
+      - STOP_IF_BOARDING
+      - ALWAYS_STOP
+      - FLEXIBLE_BOARDING_FROM_HERE
+
+  ArrivalType:
+    description: Type of arrival
+    type: string
+    enum:
+      - NO_STOP
+      - NO_ALIGHTING
+      - STOP_IF_ALIGHTING
+      - ALWAYS_STOP
+      - FLEXIBLE_ALIGHTING_UPTO_HERE
+
+  DepartureState:
+    description: The state of the departure
+    type: string
+    enum:
+      - NOTEXPECTED
+      - NOTCALLED
+      - EXPECTED
+      - CANCELLED
+      - INHIBITED
+      - ATSTOP
+      - BOARDING
+      - BOARDINGCLOSED
+      - DEPARTED
+      - PASSED
+      - MISSED
+      - REPLACED
+      - ASSUMEDDEPARTED
+
+  JourneyState:
+    description: The state of the journey
+    type: string
+    enum:
+      - NOTEXPECTED
+      - NOTRUN
+      - EXPECTED
+      - ASSIGNED
+      - CANCELLED
+      - SIGNEDON
+      - ATORIGIN
+      - FASTPROGRESS
+      - NORMALPROGRESS
+      - SLOWPROGRESS
+      - NOPROGRESS
+      - OFFROUTE
+      - ABORTED
+      - COMPLETED
+      - ASSUMEDCOMPLETED
+
+  JourneyPredictionState:
+    description: The state of predictions for the journey
+    type: string
+    enum:
+      - NORMAL
+      - LOSTCONTACT
+      - UNRELIABLE
+
+  JourneyPassengerLevel:
+    description: Describes the level of passangers the journey
+    type: string
+    enum:
+      - EMPTY
+      - SEATSAVAILABLE
+      - STANDINGPASSENGERS
+      - PASSENGERSLEFTBEHIND
+      - UNKNOWN    
+
+  URI:
+    type: string
+    pattern:  ^[a-zA-Z][a-zA-Z0-9+-.]*:[^\s]*$
+    example:  "http://10.202.1.1:80/sl-open-api/v1/stop-area/41483"
+
+  HyperTextReference:
+    description: A hypertext reference to this resource.
+    type: URI
+
+  WGS84Latitude:
+    type: number
+    description: WGS84 latitude in decimal degrees. The value must be greater than or equal to -90.0 and less than or equal to 90.0
+    example: 59.4474618783708
+
+  WGS84Longitude:
+    type: number
+    description: WGS84 longitude in decimal degrees. The value must be greater than or equal to -180.0 and less than or equal to 180.0
+    example: 17.8376900105886
+
+  ISO8601LocalDatetime:
+    type: string
+    description: Datetime in ISO8601:2004 date time format (yyyy-MM-ddTHH:mm:ss) without timezone
+    pattern: \d{4}-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])
+    example: "2019-01-19T01:00:00"
+
+  Duration:        
+    properties:
+      scheduled:
+        description: Scheduled duration in seconds
+        type: DurationSeconds
+      realtime:
+        description: Scheduled duration in seconds
+        type: DurationSeconds
+
+  DurationSeconds:
+    description: Duration in seconds
+    type: integer
+
+  DurationMinutes:
+    description: Duration in minutes
+    type: integer
+  
+  ObjectValidityPeriod:
+    description: Describes the period for which the object is valid
+    properties:
+      valid_from:
+        description: Object is valid from this datetime
+        type: ISO8601LocalDatetime
+        required: true
+      valid_to:
+        description: Object is valid until this datetime. If missing it means that the object is valid until further notice
+        type: ISO8601LocalDatetime
+        required: false
+  
+  IncludeChildren:
+    description: Include child objects. This returns the complete objct tree when needed but is significantly slower and the responce message can be large
+    type: boolean
+    default: false
+

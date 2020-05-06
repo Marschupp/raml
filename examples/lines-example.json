@@ -1,0 +1,269 @@
+{
+  "metro": [
+    {
+      "id": 10,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+      "name": "",
+      "designation": "10",
+      "group_of_lines": "Tunnelbanans blå linje",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    },
+    {
+      "id": 11,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+      "name": "",
+      "designation": "11",
+      "group_of_lines": "Tunnelbanans blå linje",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    },
+    {
+      "id": 13,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+      "name": "",
+      "designation": "13",
+      "group_of_lines": "Tunnelbanans röda linje",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    }
+  ],
+  "tram": [
+    {
+      "id": 7,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/7",
+      "name": "",
+      "designation": "7",
+      "group_of_lines": "Spårväg City",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2010-07-27T00:00:00"
+      }
+    },
+    {
+      "id": 12,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/12",
+      "name": "",
+      "designation": "12",
+      "group_of_lines": "Nockebybanan",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    },
+    {
+      "id": 21,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/21",
+      "name": "",
+      "designation": "21",
+      "group_of_lines": "Lidingöbanan",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    }
+  ],
+  "train": [
+    {
+      "id": 40,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/40",
+      "name": "",
+      "designation": "40",
+      "group_of_lines": "Pendeltåg",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2017-08-23T00:00:00"
+      }
+    },
+    {
+      "id": 41,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/41",
+      "name": "",
+      "designation": "41",
+      "group_of_lines": "Pendeltåg",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2017-08-23T00:00:00"
+      }
+    },
+    {
+      "id": 42,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/42",
+      "name": "",
+      "designation": "42",
+      "group_of_lines": "Pendeltåg",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2017-08-23T00:00:00"
+      }
+    }
+  ],
+  "bus": [
+    {
+      "id": 1,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/1",
+      "name": "",
+      "designation": "1",
+      "group_of_lines": "Blåbuss",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    },
+    {
+      "id": 2,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/2",
+      "name": "",
+      "designation": "2",
+      "group_of_lines": "Blåbuss",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    },
+    {
+      "id": 3,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/3",
+      "name": "",
+      "designation": "3",
+      "group_of_lines": "Blåbuss",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    }
+  ],
+  "ship": [
+    {
+      "id": 80,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/80",
+      "name": "",
+      "designation": "80",
+      "group_of_lines": "Pendelbåt",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2013-08-19T00:00:00"
+      }
+    },
+    {
+      "id": 82,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/82",
+      "name": "Djurgårdsfärjan",
+      "designation": "82",
+      "group_of_lines": "Pendelbåt",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2016-04-14T00:00:00"
+      }
+    },
+    {
+      "id": 89,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/89",
+      "name": "",
+      "designation": "89",
+      "group_of_lines": "Pendelbåt",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2016-06-17T00:00:00"
+      }
+    }
+  ],
+  "ferry": [
+    {
+      "id": 298,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/298",
+      "name": "",
+      "designation": "298",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    }
+  ],
+  "taxi": [
+    {
+      "id": 299,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/299",
+      "name": "",
+      "designation": "299",
+      "transport_authority": {
+        "id": 1,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+        "name": "Storstockholms Lokaltrafik"
+      },
+      "valid_period": {
+        "valid_from": "2007-08-24T00:00:00"
+      }
+    }
+  ]
+}

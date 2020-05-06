@@ -1,0 +1,457 @@
+{
+  "id": 2901,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28/journeys/2901",
+  "transport_authority_id": 1,
+  "line": {
+    "id": 28,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+    "designation": "28S"
+  },
+  "direction_code": 2,
+  "direction_name": "Österskär",
+  "number_of_stops": 20,
+  "origin_name": "Österskär",
+  "destination_name": "Stockholms östra",
+  "operating_day_date": "2020-03-06",
+  "scheduled_start_datetime": "2020-03-06T06:37:00",
+  "scheduled_end_datetime": "2020-03-06T07:14:00",
+  "journey_stops": [
+    {
+      "sequence_number": 1,
+      "scheduled_arrival_datetime": "2020-03-06T06:38:00",
+      "scheduled_departure_datetime": "2020-03-06T06:37:00",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "NO_ALIGHTING",
+      "distance_next_stop": 823,
+      "stop_area": {
+        "id": 6791,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6791",
+        "name": "Österskär",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7091,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7091",
+        "name": "Österskär",
+        "designation": "1"
+      }
+    },
+    {
+      "sequence_number": 2,
+      "scheduled_arrival_datetime": "2020-03-06T06:38:00",
+      "expected_arrival_datetime": "2020-03-06T06:38:08",
+      "scheduled_departure_datetime": "2020-03-06T06:38:00",
+      "expected_departure_datetime": "2020-03-06T06:39:04",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1337,
+      "stop_area": {
+        "id": 6781,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6781",
+        "name": "Tunagård",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7081,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7081",
+        "name": "Tunagård",
+        "designation": "1"
+      }
+    },
+    {
+      "sequence_number": 3,
+      "scheduled_arrival_datetime": "2020-03-06T06:41:00",
+      "expected_arrival_datetime": "2020-03-06T06:40:24",
+      "scheduled_departure_datetime": "2020-03-06T06:41:00",
+      "expected_departure_datetime": "2020-03-06T06:41:40",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1742,
+      "stop_area": {
+        "id": 7071,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7071",
+        "name": "Åkersberga",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7071,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7071",
+        "name": "Åkersberga",
+        "designation": "1"
+      }
+    },
+    {
+      "sequence_number": 4,
+      "scheduled_arrival_datetime": "2020-03-06T06:42:00",
+      "expected_arrival_datetime": "2020-03-06T06:43:04",
+      "scheduled_departure_datetime": "2020-03-06T06:42:00",
+      "expected_departure_datetime": "2020-03-06T06:43:13",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 2246,
+      "stop_area": {
+        "id": 6761,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6761",
+        "name": "Åkers Runö",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7062,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7062",
+        "name": "Åkers Runö",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 5,
+      "scheduled_arrival_datetime": "2020-03-06T06:44:00",
+      "expected_arrival_datetime": "2020-03-06T06:44:45",
+      "scheduled_departure_datetime": "2020-03-06T06:44:00",
+      "expected_departure_datetime": "2020-03-06T06:44:57",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 3051,
+      "stop_area": {
+        "id": 7051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7051",
+        "name": "Täljö",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7052,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7052",
+        "name": "Täljö",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 6,
+      "scheduled_arrival_datetime": "2020-03-06T06:49:00",
+      "expected_arrival_datetime": "2020-03-06T06:48:13",
+      "scheduled_departure_datetime": "2020-03-06T06:49:00",
+      "expected_departure_datetime": "2020-03-06T06:49:24",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 2911,
+      "stop_area": {
+        "id": 6741,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6741",
+        "name": "Rydbo",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7041,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7041",
+        "name": "Rydbo",
+        "designation": "1"
+      }
+    },
+    {
+      "sequence_number": 7,
+      "scheduled_arrival_datetime": "2020-03-06T06:52:00",
+      "expected_arrival_datetime": "2020-03-06T06:49:56",
+      "scheduled_departure_datetime": "2020-03-06T06:52:00",
+      "expected_departure_datetime": "2020-03-06T06:50:06",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 1525,
+      "stop_area": {
+        "id": 7035,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7035",
+        "name": "Arninge",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7036,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7036",
+        "name": "Arninge",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 8,
+      "scheduled_arrival_datetime": "2020-03-06T06:53:00",
+      "expected_arrival_datetime": "2020-03-06T06:51:16",
+      "scheduled_departure_datetime": "2020-03-06T06:53:00",
+      "expected_departure_datetime": "2020-03-06T06:52:29",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1396,
+      "stop_area": {
+        "id": 7031,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7031",
+        "name": "Hägernäs",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7032,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7032",
+        "name": "Hägernäs",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 9,
+      "scheduled_arrival_datetime": "2020-03-06T06:56:00",
+      "expected_arrival_datetime": "2020-03-06T06:54:57",
+      "scheduled_departure_datetime": "2020-03-06T06:56:00",
+      "expected_departure_datetime": "2020-03-06T06:55:58",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1117,
+      "stop_area": {
+        "id": 7021,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7021",
+        "name": "Viggbyholm",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7021,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7021",
+        "name": "Viggbyholm",
+        "designation": "1"
+      }
+    },
+    {
+      "sequence_number": 10,
+      "scheduled_arrival_datetime": "2020-03-06T06:57:00",
+      "expected_arrival_datetime": "2020-03-06T06:57:18",
+      "scheduled_departure_datetime": "2020-03-06T06:57:00",
+      "expected_departure_datetime": "2020-03-06T06:58:18",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 660,
+      "stop_area": {
+        "id": 7011,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7011",
+        "name": "Galoppfältet",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7012,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7012",
+        "name": "Galoppfältet",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 11,
+      "scheduled_arrival_datetime": "2020-03-06T06:59:00",
+      "expected_arrival_datetime": "2020-03-06T06:59:04",
+      "scheduled_departure_datetime": "2020-03-06T06:59:00",
+      "expected_departure_datetime": "2020-03-06T07:00:10",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1476,
+      "stop_area": {
+        "id": 7001,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7001",
+        "name": "Täby centrum",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7002,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7002",
+        "name": "Täby centrum",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 12,
+      "scheduled_arrival_datetime": "2020-03-06T07:02:00",
+      "expected_arrival_datetime": "2020-03-06T07:01:00",
+      "scheduled_departure_datetime": "2020-03-06T07:02:00",
+      "expected_departure_datetime": "2020-03-06T07:02:19",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 1150,
+      "stop_area": {
+        "id": 7191,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7191",
+        "name": "Roslags Näsby",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7194,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7194",
+        "name": "Roslags Näsby",
+        "designation": "4"
+      }
+    },
+    {
+      "sequence_number": 13,
+      "scheduled_arrival_datetime": "2020-03-06T07:03:00",
+      "expected_arrival_datetime": "2020-03-06T07:03:24",
+      "scheduled_departure_datetime": "2020-03-06T07:03:00",
+      "expected_departure_datetime": "2020-03-06T07:03:51",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 1589,
+      "stop_area": {
+        "id": 7181,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7181",
+        "name": "Enebyberg",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7182,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7182",
+        "name": "Enebyberg",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 14,
+      "scheduled_arrival_datetime": "2020-03-06T07:04:00",
+      "expected_arrival_datetime": "2020-03-06T07:05:00",
+      "scheduled_departure_datetime": "2020-03-06T07:04:00",
+      "expected_departure_datetime": "2020-03-06T07:04:58",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 838,
+      "stop_area": {
+        "id": 7171,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7171",
+        "name": "Djursholms Ekeby",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7172,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7172",
+        "name": "Djursholms Ekeby",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 15,
+      "scheduled_arrival_datetime": "2020-03-06T07:05:00",
+      "expected_arrival_datetime": "2020-03-06T07:06:00",
+      "scheduled_departure_datetime": "2020-03-06T07:05:00",
+      "expected_departure_datetime": "2020-03-06T07:05:44",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 730,
+      "stop_area": {
+        "id": 6661,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6661",
+        "name": "Bråvallavägen",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7162,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7162",
+        "name": "Bråvallavägen",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 16,
+      "scheduled_arrival_datetime": "2020-03-06T07:06:00",
+      "expected_arrival_datetime": "2020-03-06T07:06:20",
+      "scheduled_departure_datetime": "2020-03-06T07:06:00",
+      "expected_departure_datetime": "2020-03-06T07:06:28",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 1047,
+      "stop_area": {
+        "id": 6651,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6651",
+        "name": "Djursholms Ösby",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7153,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7153",
+        "name": "Djursholms Ösby",
+        "designation": "3"
+      }
+    },
+    {
+      "sequence_number": 17,
+      "scheduled_arrival_datetime": "2020-03-06T07:07:00",
+      "expected_arrival_datetime": "2020-03-06T07:07:01",
+      "scheduled_departure_datetime": "2020-03-06T07:07:00",
+      "expected_departure_datetime": "2020-03-06T07:07:57",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 838,
+      "stop_area": {
+        "id": 7141,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7141",
+        "name": "Mörby",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7142,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7142",
+        "name": "Mörby",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 18,
+      "scheduled_arrival_datetime": "2020-03-06T07:08:00",
+      "expected_arrival_datetime": "2020-03-06T07:08:41",
+      "scheduled_departure_datetime": "2020-03-06T07:08:00",
+      "expected_departure_datetime": "2020-03-06T07:09:13",
+      "boarding": "NO_STOP",
+      "alighting": "NO_STOP",
+      "distance_next_stop": 2363,
+      "stop_area": {
+        "id": 7131,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7131",
+        "name": "Stocksund",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7132,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7132",
+        "name": "Stocksund",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 19,
+      "scheduled_arrival_datetime": "2020-03-06T07:10:00",
+      "expected_arrival_datetime": "2020-03-06T07:11:37",
+      "scheduled_departure_datetime": "2020-03-06T07:10:00",
+      "expected_departure_datetime": "2020-03-06T07:12:29",
+      "boarding": "STOP_IF_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "distance_next_stop": 2487,
+      "stop_area": {
+        "id": 7111,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/7111",
+        "name": "Universitetet",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7112,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7112",
+        "name": "Universitetet",
+        "designation": "2"
+      }
+    },
+    {
+      "sequence_number": 20,
+      "scheduled_arrival_datetime": "2020-03-06T07:14:00",
+      "expected_arrival_datetime": "2020-03-06T07:13:57",
+      "scheduled_departure_datetime": "2020-03-06T07:10:00",
+      "expected_departure_datetime": "2020-03-06T07:14:03",
+      "boarding": "NO_BOARDING",
+      "alighting": "STOP_IF_ALIGHTING",
+      "stop_area": {
+        "id": 6601,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/6601",
+        "name": "Stockholms östra",
+        "type": "TRAMSTN"
+      },
+      "stop_point": {
+        "id": 7105,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/7105",
+        "name": "Stockholms östra",
+        "designation": "5"
+      }
+    }
+  ]
+}

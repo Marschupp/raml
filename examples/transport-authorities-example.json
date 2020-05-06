@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+    "name": "Storstockholms Lokaltrafik",
+    "formal_name": "AB Storstockholms Lokaltrafik",
+    "code": "SL",
+    "street_address": "Lindhagensgatan 100",
+    "postal_code": 10573,
+    "city": "Stockholm",
+    "country_name": "Sweden",
+    "valid_period": {
+      "valid_from": "2007-08-23T00:00:00"
+    }
+  },
+  {
+    "id": 2,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/2",
+    "name": "Upplandstrafiken",
+    "formal_name": "Upplands lokaltrafik",
+    "code": "UL",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 3,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/3",
+    "name": "Länstrafiken Sörmland",
+    "formal_name": "Länstrafiken Sörmland",
+    "code": "LT",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 4,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/4",
+    "name": "Kommun",
+    "formal_name": "Kommuner i Stockholms Län",
+    "code": "Kommun",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 5,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/5",
+    "name": "Färdtjänstnämnden",
+    "formal_name": "Färdtjänstnämnden",
+    "code": "FTN",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 6,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/6",
+    "name": "Vägverket",
+    "formal_name": "Vägverket Färjerederiet AB",
+    "code": "VV",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 7,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/7",
+    "name": "People Travel Group",
+    "formal_name": "People Travel Group AB",
+    "code": "PTG",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 8,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/8",
+    "name": "Waxholmsbolaget",
+    "formal_name": "Waxholmsbolaget Ångfartygs AB",
+    "code": "WÅAB",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 9,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/9",
+    "name": "SJ",
+    "formal_name": "SJ AB",
+    "code": "SJ",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  },
+  {
+    "id": 74,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/74",
+    "name": "Trafikverket",
+    "formal_name": "Trafikverket",
+    "code": "TRV",
+    "valid_period": {
+      "valid_from": "2010-11-04T00:00:00"
+    }
+  },
+  {
+    "id": 90,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/90",
+    "name": "A-train",
+    "formal_name": "A-Train AB",
+    "code": "AEX",
+    "valid_period": {
+      "valid_from": "2011-03-05T00:00:00"
+    }
+  },
+  {
+    "id": 92,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/92",
+    "name": "A-train AB",
+    "code": "92",
+    "valid_period": {
+      "valid_from": "2011-02-02T00:00:00"
+    }
+  },
+  {
+    "id": 632,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/632",
+    "name": "Roslagens sjötrafik",
+    "formal_name": "Roslagens sjötrafik",
+    "code": "ROS",
+    "valid_period": {
+      "valid_from": "2018-07-04T00:00:00"
+    }
+  },
+  {
+    "id": 999,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/999",
+    "name": "SL Kundtjänst",
+    "formal_name": "AB SL Kundtjänst",
+    "code": "SLK",
+    "valid_period": {
+      "valid_from": "2007-08-24T00:00:00"
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "place_id": "QT0xQE89TW9kZ3VubnbDpGdlbiAoRGFuZGVyeWQpQFg9MTgwNTQ3NzFAWT01OTQxMDc2MEBVPTc0QEw9MzAwMTAyMTI4QEI9MUBwPTE1ODc3NzY0MTVA",
+    "type": "SITE",
+    "site": {
+      "name": "Modgunnvägen (Danderyd)",
+      "id": 2128,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/2128",
+      "longitude": 18.054771,
+      "latitude": 59.410760,
+      "products": [
+        "BUS"
+      ]
+    }
+  },
+  {
+    "place_id": "QT0xQE89QXJraXRla3R1ci0vTW9kZXJuYSBtdXNlZXQgKFN0b2NraG9sbSlAWD0xODA4NTI5MEBZPTU5MzI1MTU2QFU9NzRATD0zMDAxMDEwMjZAQj0xQHA9MTU4Nzc3NjQxNUA=",
+    "type": "SITE",
+    "site": {
+      "name": "Arkitektur-/Moderna museet (Stockholm)",
+      "id": 1026,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1026",
+      "longitude": 18.085290,
+      "latitude": 59.325156,
+      "products": [
+        "BUS"
+      ]
+    }
+  },
+  {
+    "place_id": "QT00QE89TW9kZXJuYSBtdXNlZXRAWD0xODA4NDAwNEBZPTU5MzI2MzUxQFU9MTc2QEw9OTgwMDAwOTY2QEI9MUBwPTE1NDE2MDIxMzhA",
+    "type": "POI",
+    "poi": {
+      "id": "29898032",
+      "name": "Moderna museet",
+      "type": "MUSEUM",
+      "category": "TOURISM",
+      "common_name": "Stockholm",
+      "longitude": 18.084004,
+      "latitude": 59.326351
+    }
+  },
+  {
+    "place_id": "QT0yQE89RGp1cnNob2xtLCBNb2RldsOkZ2VuQFg9MTgwODE1NDFAWT01OTM5NDE3NUBVPTE3NEBiPTk5MDAwMjQ1MEBCPTFAcD0xNTg3Nzc2NDc4QA==",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modevägen (Djursholm)",
+      "longitude": 18.081541,
+      "latitude": 59.394175
+    }
+  },
+  {
+    "place_id": "QT0yQE89RGp1cnNob2xtLCBNb2RndW5udsOkZ2VuQFg9MTgwNTUyMTJAWT01OTQxMjAwMUBVPTE3NEBiPTk5MDAwMjQ1MUBCPTFAcD0xNTg3Nzc2NDc4QA==",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modgunnvägen (Djursholm)",
+      "longitude": 18.055212,
+      "latitude": 59.412001
+    }
+  },
+  {
+    "place_id": "QT0yQE89S2lzdGEsIE1vZGVtZ2F0YW5AWD0xNzk1MjA2MUBZPTU5NDAyNjA3QFU9MTc0QGI9OTkwMDA4NTY4QEI9MUBwPTE1ODc3NzY0NzhA",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modemgatan (Kista)",
+      "longitude": 17.952061,
+      "latitude": 59.402607
+    }
+  },
+  {
+    "place_id": "QT0yQE89S3VuZ2VucyBrdXJ2YSwgTW9kdWx2w6RnZW5AWD0xNzkxNTIxNEBZPTU5MjY5ODQ1QFU9MTc0QGI9OTkwMDA4NjMxQEI9MUBwPTE1ODc3NzY0NzhA",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modulvägen (Kungens kurva)",
+      "longitude": 17.915214,
+      "latitude": 59.269845
+    }
+  },
+  {
+    "place_id": "QT0yQE89TmFja2EsIE1vZGV2w6RnZW5AWD0xODIwOTg2MkBZPTU5MzE5ODc5QFU9MTc0QGI9OTkwMDExMTEyQEI9MUBwPTE1ODc3NzY0NzhA",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modevägen (Nacka)",
+      "longitude": 18.209862,
+      "latitude": 59.319879
+    }
+  },
+  {
+    "place_id": "QT0yQE89w5ZzbW8sIE1vZGVzIHbDpGdAWD0xNzg4OTkwMEBZPTU4OTgzMTk3QFU9MTc0QGI9OTkwMDI2OTk4QEI9MUBwPTE1ODc3NzY0NzhA",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Modes väg (Ösmo)",
+      "longitude": 17.889900,
+      "latitude": 58.983197
+    }
+  },
+  {
+    "place_id": "QT0yQE89U29sbmEsIFRob3IgTW9kw6lucyBwbGF0c0BYPTE3OTgwNjgyQFk9NTkzNjc0NjhAVT0xNzRAYj05OTAwMTcwODlAQj0xQHA9MTU4Nzc3NjQ3OEA=",
+    "type": "ADDRESS",
+    "address": {
+      "name": "Thor Modéns plats (Solna)",
+      "longitude": 17.980682,
+      "latitude": 59.367468
+    }
+  }
+]

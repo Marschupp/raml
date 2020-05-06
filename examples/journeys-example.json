@@ -1,0 +1,74 @@
+[
+  {
+    "id": 303,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28/journeys/303",
+    "transport_authority_id": 1,
+    "line": {
+      "id": 28,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+      "designation": "28"
+    },
+    "direction_code": 2,
+    "direction_name": "Österskär",
+    "number_of_stops": 12,
+    "origin_name": "Viggbyholm",
+    "destination_name": "Stockholms östra",
+    "operating_day_date": "2020-03-06",
+    "scheduled_start_datetime": "2020-03-06T08:32:00",
+    "scheduled_end_datetime": "2020-03-06T08:54:00"
+  },
+  {
+    "id": 481,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28/journeys/481",
+    "transport_authority_id": 1,
+    "line": {
+      "id": 28,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+      "designation": "28"
+    },
+    "direction_code": 2,
+    "direction_name": "Österskär",
+    "number_of_stops": 13,
+    "origin_name": "Täby kyrkby",
+    "destination_name": "Stockholms östra",
+    "operating_day_date": "2020-03-06",
+    "scheduled_start_datetime": "2020-03-06T08:04:00",
+    "scheduled_end_datetime": "2020-03-06T08:31:00"
+  },
+  {
+    "id": 601,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28/journeys/601",
+    "transport_authority_id": 1,
+    "line": {
+      "id": 28,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+      "designation": "28"
+    },
+    "direction_code": 2,
+    "direction_name": "Österskär",
+    "number_of_stops": 20,
+    "origin_name": "Österskär",
+    "destination_name": "Stockholms östra",
+    "operating_day_date": "2020-03-06",
+    "scheduled_start_datetime": "2020-03-06T04:51:00",
+    "scheduled_end_datetime": "2020-03-06T05:33:00"
+  },
+  {
+    "id": 603,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28/journeys/603",
+    "transport_authority_id": 1,
+    "line": {
+      "id": 28,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/28",
+      "designation": "28"
+    },
+    "direction_code": 2,
+    "direction_name": "Österskär",
+    "number_of_stops": 20,
+    "origin_name": "Österskär",
+    "destination_name": "Stockholms östra",
+    "operating_day_date": "2020-03-06",
+    "scheduled_start_datetime": "2020-03-06T05:25:00",
+    "scheduled_end_datetime": "2020-03-06T06:07:00"
+  }
+]

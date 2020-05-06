@@ -1,0 +1,15 @@
+{
+  "id": 19,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+  "name": "",
+  "designation": "19",
+  "group_of_lines": "Tunnelbanans gröna linje",
+  "transport_authority": {
+    "id": 1,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+    "name": "Storstockholms Lokaltrafik"
+  },
+  "valid_period": {
+    "valid_from": "2007-08-24T00:00:00"
+  }
+}

@@ -1,0 +1,167 @@
+{
+    "metro": {
+        "name": "Tunnelbana",
+        "overall_status_code": "GOOD",
+        "has_expanded_events": true,
+        "has_planned_events": false,
+        "events": [
+            {
+                "id": 0,
+                "message": "Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    },
+    "train": {
+        "name": "Pendeltåg",
+        "overall_status_code": "GOOD",
+        "has_expanded_events": true,
+        "has_planned_events": false,
+        "events": [
+            {
+                "id": 0,
+                "message": "Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    },
+    "local": {
+        "name": "Lokalbana",
+        "overall_status_code": "GOOD",
+        "has_expanded_events": true,
+        "has_planned_events": true,
+        "events": [
+            {
+                "id": 18022,
+                "message": "Saltsjöbanans anslutningsbuss 25C är inställd fredag 20 mars pga arbeten med en ny bro vid Slussen. Resenärer hänvisas istället till linje 25B som får fler avgångar och trafikerar som vanligt mellan Henriksdal och Slussen.",
+                "line_numbers": "25,26",
+                "traffic_group_name": "Saltsjöbanan",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 105,
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 18018,
+                "message": "Den 10–14 april går inga tåg på Roslagsbanan utan bussar ersätter tågen på alla linjer. Mellan Visinge/Täby kyrkby och Kårsta ersätter bussar tågen redan från 5 april och mellan Åkersberga och Österskär från 9 april efter kl.19:00. \n\nPå långfredagen, 10 april, stängs hela Roslagsbanan (linje 27, 28 och 29) av för att SL ska kunna göra större arbeten i upprustningen av banan. Bussar ersätter under tiden. Tågen går igen på onsdag morgon 15 april på alla sträckor utom:\nPå sträckan Åkers Runö – Österskär är tågen fortsatt inställda och buss 28M ersätter fram till och med 18 april. \nPå sträckan Visinge/Täby kyrkby – Kårsta är tågen fortsatt inställda och bussar ersätter fram till 8 november. \n\nRäkna med att din resa kan ta längre tid än normalt. Tänk på att vara ute i god tid.\nAnvänd reseplaneraren för att hitta det bästa alternativet för just din resa",
+                "line_numbers": "27,28,29",
+                "traffic_group_name": "Roslagsbanan",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 110,
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 0,
+                "message": "Övriga linjer: Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    },
+    "tram": {
+        "name": "Spårvagn",
+        "overall_status_code": "GOOD",
+        "has_expanded_events": true,
+        "has_planned_events": true,
+        "events": [
+            {
+                "id": 18059,
+                "message": "Påskhelgen, fr.o.m. fredag 10 april t.o.m. måndag 13 april ersätts spårvagnarna av bussar på grund av underhållsarbeten. Använd reseplaneraren för att hitta det bästa alternativet för din resa.",
+                "line_numbers": "12",
+                "traffic_group_name": "Nockebybanan",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 150,
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 17011,
+                "message": "Inga spårvagnar stannar vid Karlsbodavägen och Norra Ulvsunda. Använd gärna reseplaneraren för att hitta det bästa alternativet för din resa.",
+                "line_numbers": "22",
+                "traffic_group_name": "Tvärbanan",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 150,
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 0,
+                "message": "Övriga linjer: Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    },
+    "bus": {
+        "name": "Buss",
+        "overall_status_code": "MINOR",
+        "has_expanded_events": true,
+        "has_planned_events": true,
+        "events": [
+            {
+                "id": 18058,
+                "message": "Linje 551 har tillfällig ändrad hållplatsläge från läge H till läge R i Jakobsbergs bussterminal.",
+                "line_numbers": "551",
+                "traffic_group_name": "Järfälla",
+                "is_expanded": true,
+                "is_planned": false,
+                "sort_index": 100,
+                "status_code": "MINOR"
+            },
+            {
+                "id": 18027,
+                "message": "Nacka: C-linjerna till och från Cityterminalen samt linje 405 är helt indragna fredag 20 mars på grund av att Stadsgårdsleden är avstängd för trafik när Slussens nya huvudbro monteras.\n\n\nVärmdö: Linje 435C och 480C till Cityterminalen går istället till Medborgarplatsen på morgonen och är helt indragna på eftermiddagen fredag 20 mars på grund av att Stadsgården delvis är avstängd när Slussens nya huvudbro monteras.",
+                "traffic_group_name": "Nacka/Värmdö",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 100,
+                "event_info_url": "https://sl.se/sv/info/nyheter/bromontering/?date=true",
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 0,
+                "message": "Övriga linjer: Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    },
+    "ferry": {
+        "name": "Pendelbåt",
+        "overall_status_code": "GOOD",
+        "has_expanded_events": true,
+        "has_planned_events": true,
+        "events": [
+            {
+                "id": 17292,
+                "message": "Pendelbåtslinje 80: Sticklinge pendelbåtshållplats är avstängd för trafik från 1 januari 2020 och tills vidare på grund av renovering av hållplatsen. Resenärer hänvisas till buss 205 mellan Sticklinge - Ropsten, alternativt till pendelbåtshållplats Mor Annas brygga.",
+                "traffic_group_name": "Pendelbåt",
+                "is_expanded": true,
+                "is_planned": true,
+                "sort_index": 100,
+                "status_code": "PLANNED"
+            },
+            {
+                "id": 0,
+                "message": "Övriga linjer: Inga större störningar",
+                "is_expanded": false,
+                "is_planned": false,
+                "sort_index": 10000,
+                "status_code": "GOOD"
+            }
+        ]
+    }
+}

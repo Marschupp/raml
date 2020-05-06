@@ -1,0 +1,142 @@
+{
+  "id": "R3wxfEdARnxBPTJATz1TdG9ja2hvbG0sIEjDtmdhbGlkc2dhdGFuIDMwQkBYPTE4MDM5MDc2QFk9NTkzMTg1ODVAdT0xMUB8QT0xQE89SMO2Z2FsaWRzcGFya2VuQFg9MTgwMzg5NTlAWT01OTMxNjY3MEBVPTc0QEw9NTEwMTAyNTMxQHwyMzA0MjAyMHwxNDM0MDB8MTQzOTAwfGZ0fGZ0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp2J0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3R0QDBANTAwMEAxMjBALTFAMTAwQDFAMjUwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3w=",
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/trip-planner/gis-routes/R3wxfEdARnxBPTJATz1TdG9ja2hvbG0sIEjDtmdhbGlkc2dhdGFuIDMwQkBYPTE4MDM5MDc2QFk9NTkzMTg1ODVAdT0xMUB8QT0xQE89SMO2Z2FsaWRzcGFya2VuQFg9MTgwMzg5NTlAWT01OTMxNjY3MEBVPTc0QEw9NTEwMTAyNTMxQHwyMzA0MjAyMHwxNDM0MDB8MTQzOTAwfGZ0fGZ0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp2J0QDBAMjAwMEAxMjBALTFAMTAwQDFAMTAwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3R0QDBANTAwMEAxMjBALTFAMTAwQDFAMjUwMEAwQEBAQEBmYWxzZUAwQC0xQCRmQCRmQCRmQCRmQCRmQCTCp3w=",
+  "trip_leg": {
+    "type": "WALK",
+    "duration": "PT5M",
+    "distance": 300,
+    "origin": {
+      "place": {
+        "place_id": "QT0yQE89U3RvY2tob2xtLCBIw7ZnYWxpZHNnYXRhbiAzMEJAWD0xODAzOTA3NkBZPTU5MzE4NTg1QHU9MTFA",
+        "type": "ADDRESS",
+        "address": {
+          "name": "Högalidsgatan 30B (Stockholm)",
+          "longitude": 18.039076,
+          "latitude": 59.318585
+        }
+      },
+      "timing": {
+        "scheduled_datetime": "2020-04-23T14:34:00"
+      }
+    },
+    "destination": {
+      "place": {
+        "place_id": "QT0xQE89SMO2Z2FsaWRzcGFya2VuQFg9MTgwMzg5NTlAWT01OTMxNjY3MEBVPTc0QEw9NTEwMTAyNTMxQA==",
+        "type": "SITE",
+        "site": {
+          "id": 9295,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9295",
+          "entrance_point": {
+            "id": 253101,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/253101",
+            "name": "Högalidsparken"
+          },
+          "longitude": 18.038959,
+          "latitude": 59.316670
+        }
+      },
+      "timing": {
+        "scheduled_datetime": "2020-04-23T14:39:00"
+      }
+    },
+    "gis_route": {
+      "segments": [
+        {
+          "name": "Varvsgatan",
+          "manoeuvre_text": "Starta på Varvsgatan",
+          "orientation": "NORTH",
+          "poly_start_index": 1,
+          "poly_end_index": 7,
+          "distance": 213
+        },
+        {
+          "name": "Hornsbruksgatan",
+          "manoeuvre_code": "STRAIGHT",
+          "manoeuvre_text": "Fortsätt på Hornsbruksgatan",
+          "orientation": "NORTH",
+          "poly_start_index": 7,
+          "poly_end_index": 10,
+          "distance": 87
+        },
+        {
+          "name": "Hornsbruksgatan",
+          "manoeuvre_code": "TO",
+          "manoeuvre_text": "Ankomst på Hornsbruksgatan",
+          "orientation": "NORTH",
+          "poly_start_index": 10,
+          "poly_end_index": 11,
+          "distance": 0
+        }
+      ],
+      "polyline": {
+        "coordinates": [
+          {
+            "index": 1,
+            "long": 18.039076,
+            "lat": 59.318585
+          },
+          {
+            "index": 2,
+            "long": 18.039614,
+            "lat": 59.318650
+          },
+          {
+            "index": 3,
+            "long": 18.039790,
+            "lat": 59.318272
+          },
+          {
+            "index": 4,
+            "long": 18.039992,
+            "lat": 59.317818
+          },
+          {
+            "index": 5,
+            "long": 18.040008,
+            "lat": 59.317787
+          },
+          {
+            "index": 6,
+            "long": 18.040097,
+            "lat": 59.317615
+          },
+          {
+            "index": 7,
+            "long": 18.040396,
+            "lat": 59.316976
+          },
+          {
+            "index": 8,
+            "long": 18.040487,
+            "lat": 59.316789
+          },
+          {
+            "index": 9,
+            "long": 18.039810,
+            "lat": 59.316705
+          },
+          {
+            "index": 10,
+            "long": 18.039024,
+            "lat": 59.316602
+          },
+          {
+            "index": 11,
+            "long": 18.038994,
+            "lat": 59.316598
+          },
+          {
+            "index": 12,
+            "long": 18.038994,
+            "lat": 59.316598
+          },
+          {
+            "index": 13,
+            "long": 18.038959,
+            "lat": 59.316670
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+ {
+    "id": 1011005,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1011005",
+    "name": "Stationsentré Slussen",
+    "latitude": 59.3195513292046,
+    "longitude": 18.0721508304534,
+    "valid_period": {
+      "valid_from": "2018-05-30T00:00:00"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    }
+  },
+  {
+    "id": 1011006,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1011006",
+    "name": "Götgatan Mosebacke",
+    "latitude": 59.3180297246783,
+    "longitude": 18.0714415524056,
+    "valid_period": {
+      "valid_from": "2019-04-05T00:00:00"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    }
+  },
+  {
+    "id": 1021001,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1021001",
+    "name": "Riddarholmen",
+    "latitude": 59.3229107243587,
+    "longitude": 18.0666438658177,
+    "valid_period": {
+      "valid_from": "2018-01-30T00:00:00"
+    },
+    "stop_area": {
+      "id": 1021,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1021",
+      "name": "Gamla stan",
+      "type": "METROSTN"
+    }
+  }
+]

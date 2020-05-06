@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+  "name": "Storstockholms Lokaltrafik",
+  "formal_name": "AB Storstockholms Lokaltrafik",
+  "code": "SL",
+  "street_address": "Lindhagensgatan 100",
+  "postal_code": 10573,
+  "city": "Stockholm",
+  "country_name": "Sweden",
+  "valid_period": {
+    "valid_from": "2007-08-23T00:00:00"
+  }
+}

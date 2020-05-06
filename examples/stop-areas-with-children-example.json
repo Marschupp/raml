@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1211,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+    "name": "Stora mossen",
+    "type": "METROSTN",
+    "latitude": 59.3346693037612,
+    "longitude": 17.9653473382737,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "sites": [
+      {
+        "id": 9111,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9111",
+        "name": "Stora mossen",
+        "valid_period": {}
+      }
+    ],
+    "stop_points": [
+      {
+        "id": 1211,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1211",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 1,
+        "type": "PLATFORM",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": true,
+        "latitude": 59.3346646732361,
+        "longitude": 17.9653558320959,
+        "valid_period": {
+          "valid_from": "2019-05-18T00:00:00"
+        }
+      },
+      {
+        "id": 1212,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1212",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 2,
+        "type": "PLATFORM",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": true,
+        "latitude": 59.3346739342857,
+        "longitude": 17.9653388444492,
+        "valid_period": {
+          "valid_from": "2019-05-18T00:00:00"
+        }
+      }
+    ],
+    "entrance_points": [
+      {
+        "id": 1211001,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1211001",
+        "name": "Stora Mossen",
+        "latitude": 59.3344618307235,
+        "longitude": 17.9667127345281,
+        "valid_period": {
+          "valid_from": "2018-02-07T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12029,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/12029",
+    "name": "Ulvsundaplan",
+    "type": "BUSTERM",
+    "latitude": 59.3352297765497,
+    "longitude": 17.9697241253583,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "sites": [
+      {
+        "id": 9111,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9111",
+        "name": "Stora mossen",
+        "valid_period": {}
+      }
+    ],
+    "stop_points": [
+      {
+        "id": 12029,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/12029",
+        "name": "Ulvsundaplan",
+        "short_name": "Ulvsundaplan",
+        "local_number": 1,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3350806361142,
+        "longitude": 17.969512519384,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      },
+      {
+        "id": 12098,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/12098",
+        "name": "Ulvsundaplan",
+        "short_name": "Ulvsundaplan",
+        "local_number": 2,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3353789166237,
+        "longitude": 17.9699357331981,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12579,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/12579",
+    "name": "Stora mossen",
+    "type": "BUSTERM",
+    "latitude": 59.3345193570519,
+    "longitude": 17.9671885090478,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "sites": [
+      {
+        "id": 9111,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9111",
+        "name": "Stora mossen",
+        "valid_period": {}
+      }
+    ],
+    "stop_points": [
+      {
+        "id": 12579,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/12579",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 1,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3348566235865,
+        "longitude": 17.967318902653,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      },
+      {
+        "id": 12580,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/12580",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 2,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3347096071948,
+        "longitude": 17.9675204686595,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      },
+      {
+        "id": 17021,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/17021",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 3,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3343986704106,
+        "longitude": 17.9662352899587,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      },
+      {
+        "id": 17022,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/17022",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 4,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3343008717067,
+        "longitude": 17.9661763542703,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      },
+      {
+        "id": 17041,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/17041",
+        "name": "Stora mossen",
+        "short_name": "Stora mossen",
+        "local_number": 5,
+        "type": "BUSSTOP",
+        "transport_authority": {
+          "id": 1,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+          "name": "Storstockholms Lokaltrafik"
+        },
+        "has_entrance": false,
+        "latitude": 59.3343309957298,
+        "longitude": 17.9686915340119,
+        "valid_period": {
+          "valid_from": "2014-06-03T00:00:00"
+        }
+      }
+    ]
+  }
+]

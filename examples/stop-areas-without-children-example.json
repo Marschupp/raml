@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1211,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+    "name": "Stora mossen",
+    "type": "METROSTN",
+    "latitude": 59.3346693037612,
+    "longitude": 17.9653473382737,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  },
+  {
+    "id": 12029,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/12029",
+    "name": "Ulvsundaplan",
+    "type": "BUSTERM",
+    "latitude": 59.3352297765497,
+    "longitude": 17.9697241253583,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  },
+  {
+    "id": 12579,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/12579",
+    "name": "Stora mossen",
+    "type": "BUSTERM",
+    "latitude": 59.3345193570519,
+    "longitude": 17.9671885090478,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    }
+  }
+]

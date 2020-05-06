@@ -1,0 +1,383 @@
+[
+  {
+    "id": 1030,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1030",
+    "name": "Stadsbiblioteket",
+    "alias_names": [
+      "Sveavägen/Odengatan",
+      "Odengatan/Sveavägen"
+    ],
+    "latitude": 59.3442961128439,
+    "longitude": 18.0553124202118,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "stop_areas": [
+      {
+        "id": 10188,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/10188",
+        "name": "Stadsbiblioteket",
+        "short_name": "Stadsbiblioteket",
+        "abbreviation": "SBT",
+        "type": "BUSTERM",
+        "latitude": 59.3441852896909,
+        "longitude": 18.0553859620233,
+        "valid_period": {
+          "valid_from": "2019-12-16T00:00:00"
+        },
+        "sites": [
+          {
+            "id": 1030,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1030",
+            "name": "Stadsbiblioteket"
+          }
+        ],
+        "stop_points": [
+          {
+            "id": 10188,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10188",
+            "name": "Stadsbiblioteket",
+            "short_name": "Stadsbiblioteket",
+            "local_number": 1,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3438067089426,
+            "longitude": 18.0546967146818,
+            "valid_period": {
+              "valid_from": "2019-12-16T00:00:00"
+            }
+          },
+          {
+            "id": 10189,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10189",
+            "name": "Stadsbiblioteket",
+            "short_name": "Stadsbiblioteket",
+            "local_number": 2,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.344224958647,
+            "longitude": 18.0563583670598,
+            "valid_period": {
+              "valid_from": "2019-12-16T00:00:00"
+            }
+          },
+          {
+            "id": 10547,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10547",
+            "name": "Stadsbiblioteket",
+            "short_name": "Stadsbiblioteket",
+            "local_number": 3,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3445416425784,
+            "longitude": 18.0550516583547,
+            "valid_period": {
+              "valid_from": "2019-12-16T00:00:00"
+            }
+          },
+          {
+            "id": 10548,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10548",
+            "name": "Stadsbiblioteket",
+            "short_name": "Stadsbiblioteket",
+            "local_number": 4,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.343733633223,
+            "longitude": 18.0556444099751,
+            "valid_period": {
+              "valid_from": "2019-12-16T00:00:00"
+            }
+          },
+          {
+            "id": 50443,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/50443",
+            "name": "Stadsbiblioteket",
+            "short_name": "Stadsbiblioteket",
+            "local_number": 5,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3443680153757,
+            "longitude": 18.0550100126173,
+            "valid_period": {
+              "valid_from": "2019-12-16T00:00:00"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1031",
+    "name": "Handelshögskolan",
+    "latitude": 59.3419320573214,
+    "longitude": 18.0575293279589,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "stop_areas": [
+      {
+        "id": 1121,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1121",
+        "name": "Rådmansgatan",
+        "short_name": "Rådmansgatan",
+        "abbreviation": "RMG",
+        "type": "METROSTN",
+        "latitude": 59.3408793642186,
+        "longitude": 18.0579079083183,
+        "valid_period": {
+          "valid_from": "2012-06-23T00:00:00"
+        },
+        "sites": [
+          {
+            "id": 1031,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1031",
+            "name": "Handelshögskolan"
+          },
+          {
+            "id": 9118,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9118",
+            "name": "Rådmansgatan (t-banan)"
+          }
+        ],
+        "stop_points": [
+          {
+            "id": 1121,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1121",
+            "name": "Rådmansgatan",
+            "short_name": "Rådmansgatan",
+            "local_number": 1,
+            "type": "PLATFORM",
+            "has_entrance": true,
+            "latitude": 59.3408840007015,
+            "longitude": 18.0578994257094,
+            "valid_period": {
+              "valid_from": "2019-06-05T00:00:00"
+            }
+          },
+          {
+            "id": 1122,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1122",
+            "name": "Rådmansgatan",
+            "short_name": "Rådmansgatan",
+            "local_number": 2,
+            "type": "PLATFORM",
+            "has_entrance": true,
+            "latitude": 59.3408747277353,
+            "longitude": 18.0579163909249,
+            "valid_period": {
+              "valid_from": "2019-06-05T00:00:00"
+            }
+          }
+        ],
+        "entrance_points": [
+          {
+            "id": 1121001,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1121001",
+            "name": "Rådmansgatan Sveavägen",
+            "latitude": 59.3403209453795,
+            "longitude": 18.0588180113796,
+            "valid_period": {
+              "valid_from": "2017-10-17T00:00:00"
+            }
+          },
+          {
+            "id": 1121002,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1121002",
+            "name": "Tegnérgatan Sveavägen",
+            "latitude": 59.340284455708,
+            "longitude": 18.0593363565666,
+            "valid_period": {
+              "valid_from": "2017-10-17T00:00:00"
+            }
+          },
+          {
+            "id": 1121003,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1121003",
+            "name": "Handelshögskolan Stadsbiblioteket",
+            "latitude": 59.3422135796157,
+            "longitude": 18.0568271907926,
+            "valid_period": {
+              "valid_from": "2019-04-11T00:00:00"
+            }
+          },
+          {
+            "id": 1121004,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/entrance-points/1121004",
+            "name": "Handelshögskolan Sveavägen",
+            "latitude": 59.3423829635934,
+            "longitude": 18.0574185400823,
+            "valid_period": {
+              "valid_from": "2019-04-11T00:00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": 10545,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/10545",
+        "name": "Handelshögskolan",
+        "short_name": "Handelshögskolan",
+        "abbreviation": "HHÖ",
+        "type": "BUSTERM",
+        "latitude": 59.3419363904517,
+        "longitude": 18.0575384046825,
+        "valid_period": {
+          "valid_from": "2012-06-23T00:00:00"
+        },
+        "sites": [
+          {
+            "id": 1031,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1031",
+            "name": "Handelshögskolan"
+          },
+          {
+            "id": 9118,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/9118",
+            "name": "Rådmansgatan (t-banan)"
+          }
+        ],
+        "stop_points": [
+          {
+            "id": 10545,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10545",
+            "name": "Handelshögskolan",
+            "short_name": "Handelshögskolan",
+            "local_number": 1,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3421616919191,
+            "longitude": 18.0573200437832,
+            "valid_period": {
+              "valid_from": "2016-09-28T00:00:00"
+            }
+          },
+          {
+            "id": 10546,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10546",
+            "name": "Handelshögskolan",
+            "short_name": "Handelshögskolan",
+            "local_number": 2,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3413416916318,
+            "longitude": 18.057886640237,
+            "valid_period": {
+              "valid_from": "2016-09-28T00:00:00"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1032",
+    "name": "Rådmansgatan (på Sveavägen)",
+    "latitude": 59.3401610063806,
+    "longitude": 18.0592051260427,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "stop_areas": [
+      {
+        "id": 10543,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/10543",
+        "name": "Rådmansgatan",
+        "short_name": "Rådmansgatan",
+        "type": "BUSTERM",
+        "latitude": 59.3401610063806,
+        "longitude": 18.0592051260427,
+        "valid_period": {
+          "valid_from": "2012-06-23T00:00:00"
+        },
+        "sites": [
+          {
+            "id": 1032,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1032",
+            "name": "Rådmansgatan (på Sveavägen)"
+          }
+        ],
+        "stop_points": [
+          {
+            "id": 10543,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10543",
+            "name": "Rådmansgatan",
+            "short_name": "Rådmansgatan",
+            "local_number": 1,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.340155024089,
+            "longitude": 18.0591583577091,
+            "valid_period": {
+              "valid_from": "2014-06-03T00:00:00"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1033",
+    "name": "Adolf Fredriks kyrka",
+    "latitude": 59.3377236107286,
+    "longitude": 18.0615045280968,
+    "valid_period": {
+      "valid_from": "2012-06-23T00:00:00"
+    },
+    "stop_areas": [
+      {
+        "id": 10541,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/10541",
+        "name": "Adolf Fredriks kyrka",
+        "short_name": "Adolf Fredriks k",
+        "abbreviation": "AFK",
+        "type": "BUSTERM",
+        "latitude": 59.3377279435857,
+        "longitude": 18.0615136041869,
+        "valid_period": {
+          "valid_from": "2012-06-23T00:00:00"
+        },
+        "sites": [
+          {
+            "id": 1033,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1033",
+            "name": "Adolf Fredriks kyrka"
+          }
+        ],
+        "stop_points": [
+          {
+            "id": 10541,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10541",
+            "name": "Adolf Fredriks kyrka",
+            "short_name": "Adolf Fredriks k",
+            "local_number": 1,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.338116693441,
+            "longitude": 18.0613867550726,
+            "valid_period": {
+              "valid_from": "2014-06-03T00:00:00"
+            }
+          },
+          {
+            "id": 10542,
+            "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10542",
+            "name": "Adolf Fredriks kyrka",
+            "short_name": "Adolf Fredriks k",
+            "local_number": 2,
+            "type": "BUSSTOP",
+            "has_entrance": false,
+            "latitude": 59.3373683281349,
+            "longitude": 18.0620933264647,
+            "valid_period": {
+              "valid_from": "2015-07-09T00:00:00"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1011,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1011",
+    "name": "Slussen",
+    "short_name": "Slussen",
+    "designation": "1",
+    "type": "PLATFORM",
+    "has_entrance": true,
+    "latitude": 59.3195952317958,
+    "longitude": 18.0717401337080,
+    "transport_authority": {
+      "id": 1,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+      "name": "Storstockholms Lokaltrafik"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    },
+    "valid_period": {
+      "valid_from": "2019-06-14T00:00:00"
+    }
+  },
+  {
+    "id": 1012,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1012",
+    "name": "Slussen",
+    "short_name": "Slussen",
+    "designation": "4",
+    "type": "PLATFORM",
+    "has_entrance": true,
+    "latitude": 59.3195772927204,
+    "longitude": 18.0717389396459,
+    "transport_authority": {
+      "id": 1,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+      "name": "Storstockholms Lokaltrafik"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    },
+    "valid_period": {
+      "valid_from": "2019-06-14T00:00:00"
+    }
+  },
+  {
+    "id": 2011,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2011",
+    "name": "Slussen",
+    "short_name": "Slussen",
+    "designation": "2",
+    "type": "PLATFORM",
+    "has_entrance": true,
+    "latitude": 59.3195098085389,
+    "longitude": 18.0714884925526,
+    "transport_authority": {
+      "id": 1,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+      "name": "Storstockholms Lokaltrafik"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    },
+    "valid_period": {
+      "valid_from": "2019-06-14T00:00:00"
+    }
+  },
+  {
+    "id": 2012,
+    "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2012",
+    "name": "Slussen",
+    "short_name": "Slussen",
+    "designation": "3",
+    "type": "PLATFORM",
+    "has_entrance": true,
+    "latitude": 59.3194556861668,
+    "longitude": 18.0715024586738,
+    "transport_authority": {
+      "id": 1,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1",
+      "name": "Storstockholms Lokaltrafik"
+    },
+    "stop_area": {
+      "id": 1011,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+      "name": "Slussen",
+      "type": "METROSTN"
+    },
+    "valid_period": {
+      "valid_from": "2019-06-14T00:00:00"
+    }
+  }
+]

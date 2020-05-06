@@ -1,0 +1,172 @@
+[
+  {
+    "distance": 0,
+    "place": {
+      "place_id": "QT00QE89TW9kZXJuYSBtdXNlZXRAWD0xODA4NDAwNEBZPTU5MzI2MzUxQHU9MEBVPTE3NkBMPTk4MDAwMDk2NkA=",
+      "type": "POI",
+      "poi": {
+        "id": "29898032",
+        "name": "Moderna museet",
+        "type": "MUSEUM",
+        "category": "TOURISM",
+        "common_name": "Stockholm",
+        "longitude": 18.084004,
+        "latitude": 59.326351
+      }
+    }
+  },
+  {
+    "distance": 70,
+    "place": {
+      "place_id": "QT00QE89QXJraXRla3R1ci0gb2NoIGRlc2lnbmNlbnRydW1AWD0xODA4NDY1MUBZPTU5MzI1ODEyQHU9MEBVPTE3NkBMPTk4MDAwMDA5MEA=",
+      "type": "POI",
+      "poi": {
+        "id": "1092471973",
+        "name": "Arkitektur- och designcentrum",
+        "type": "MUSEUM",
+        "category": "TOURISM",
+        "common_name": "Stockholm",
+        "longitude": 18.084651,
+        "latitude": 59.325812
+      }
+    }
+  },
+  {
+    "distance": 112,
+    "place": {
+      "place_id": "QT00QE89VGVhdGVyIEdhbGVhc2VuQFg9MTgwODMzNTdAWT01OTMyNzMwNEB1PTBAVT0xNzZATD05ODAwMDA5NjdA",
+      "type": "POI",
+      "poi": {
+        "id": "29898117",
+        "name": "Teater Galeasen",
+        "type": "THEATRE",
+        "category": "AMENITY",
+        "common_name": "Stockholm",
+        "longitude": 18.083357,
+        "latitude": 59.327304
+      }
+    }
+  },
+  {
+    "distance": 152,
+    "place": {
+      "place_id": "QT00QE89QmVyZ3J1bW1ldEBYPTE4MDgxMzI1QFk9NTkzMjY1MDRAdT0wQFU9MTc2QEw9OTgwMDAwMzczQA==",
+      "type": "POI",
+      "poi": {
+        "id": "1576009829",
+        "name": "Bergrummet",
+        "type": "MUSEUM",
+        "category": "TOURISM",
+        "common_name": "Stockholm",
+        "longitude": 18.081325,
+        "latitude": 59.326504
+      }
+    }
+  },
+  {
+    "distance": 166,
+    "place": {
+      "place_id": "QT0xQE89w5ZzdGFzaWF0aXNrYSBtdXNlZXQgKFN0b2NraG9sbSlAWD0xODA4MDg0OUBZPTU5MzI2MzE1QFU9NzRATD0zMDAxMDEwMjVA",
+      "type": "SITE",
+      "site": {
+        "id": 1025,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1025",
+        "stop_point": {
+          "id": 10333,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10333",
+          "name": "Östasiatiska museet"
+        },
+        "longitude": 18.081092,
+        "latitude": 59.326199,
+        "products": [
+          "BUS"
+        ]
+      }
+    }
+  },
+  {
+    "distance": 175,
+    "place": {
+      "place_id": "QT00QE89w5ZzdGFzaWF0aXNrYSBtdXNlZXRAWD0xODA4MTY3NkBZPTU5MzI3Mzg1QHU9MEBVPTE3NkBMPTk4MDAwMDMwOEA=",
+      "type": "POI",
+      "poi": {
+        "id": "1476007025",
+        "name": "Östasiatiska museet",
+        "type": "MUSEUM",
+        "category": "TOURISM",
+        "common_name": "Stockholm",
+        "longitude": 18.081676,
+        "latitude": 59.327385
+      }
+    }
+  },
+  {
+    "distance": 194,
+    "place": {
+      "place_id": "QT00QE89U3ZlbnNrc3VuZHNwYXJrZW5AWD0xODA4NjI3OEBZPTU5MzI1MDQ4QHU9MEBVPTE3NkBMPTk4MDAwMDE5MkA=",
+      "type": "POI",
+      "poi": {
+        "id": "129148516",
+        "name": "Svensksundsparken",
+        "type": "PARK",
+        "category": "LEISURE",
+        "common_name": "Stockholm",
+        "longitude": 18.086278,
+        "latitude": 59.325048
+      }
+    }
+  },
+  {
+    "distance": 218,
+    "place": {
+      "place_id": "QT0xQE89QXJraXRla3R1ci0vTW9kZXJuYSBtdXNlZXQgKFN0b2NraG9sbSlAWD0xODA4NTI5MEBZPTU5MzI1MTU2QFU9NzRATD0zMDAxMDEwMjZA",
+      "type": "SITE",
+      "site": {
+        "id": 1026,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/sites/1026",
+        "stop_point": {
+          "id": 10329,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/10329",
+          "name": "ArkDes/Moderna museet"
+        },
+        "longitude": 18.084211,
+        "latitude": 59.324392,
+        "products": [
+          "BUS"
+        ]
+      }
+    }
+  },
+  {
+    "distance": 241,
+    "place": {
+      "place_id": "QT00QE89S3VuZ2xpZ2EgS29uc3Row7Znc2tvbGFuQFg9MTgwODMwNjBAWT01OTMyNDIzOUB1PTBAVT0xNzZATD05ODAwMDAwMDBA",
+      "type": "POI",
+      "poi": {
+        "id": "-1364108",
+        "name": "Kungliga Konsthögskolan",
+        "type": "UNIVERSITY",
+        "category": "AMENITY",
+        "common_name": "Stockholm",
+        "longitude": 18.083060,
+        "latitude": 59.324239
+      }
+    }
+  },
+  {
+    "distance": 245,
+    "place": {
+      "place_id": "QT00QE89QWYgQ2hhcG1hbkBYPTE4MDgwMjI5QFk9NTkzMjUyNzNAdT0wQFU9MTc2QEw9OTgwMDAwODk1QA==",
+      "type": "POI",
+      "poi": {
+        "id": "27742012",
+        "name": "Af Chapman",
+        "type": "ATTRACTION",
+        "category": "TOURISM",
+        "common_name": "Stockholm",
+        "longitude": 18.080229,
+        "latitude": 59.325273
+      }
+    }
+  }
+]

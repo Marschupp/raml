@@ -1,0 +1,816 @@
+[
+  {
+    "id": 23108705,
+    "message_version": 4,
+    "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+    "header": "Stn.medd. Covid-19 rekommendation GRÖNA",
+    "importance_level": 5,
+    "from_datetime": "2020-04-17T14:22:41",
+    "to_datetime": "2020-05-02T01:30:00",
+    "created_datetime": "2020-04-17T12:22:41",
+    "updated_datetime": "2020-04-17T12:22:41",
+    "scope": {
+      "stop_areas": [
+        {
+          "id": 1111,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1111",
+          "name": "Hötorget",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1121,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1121",
+          "name": "Rådmansgatan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1131,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1131",
+          "name": "Odenplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1141,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1141",
+          "name": "S:t Eriksplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1161,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1161",
+          "name": "Thorildsplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1171,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1171",
+          "name": "Kristineberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1201,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1201",
+          "name": "Alvik",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1211,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+          "name": "Stora mossen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1221,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1221",
+          "name": "Abrahamsberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1231,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1231",
+          "name": "Brommaplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1241,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1241",
+          "name": "Åkeshov",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1251,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1251",
+          "name": "Ängbyplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1261,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1261",
+          "name": "Islandstorget",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1271,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1271",
+          "name": "Blackeberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1281,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1281",
+          "name": "Råcksta",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1301,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1301",
+          "name": "Vällingby",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1311,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1311",
+          "name": "Johannelund",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1321,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1321",
+          "name": "Hässelby gård",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1331,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1331",
+          "name": "Hässelby strand",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1511,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1511",
+          "name": "Medborgarplatsen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1521,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1521",
+          "name": "Skanstull",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1551,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1551",
+          "name": "Gullmarsplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1601,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1601",
+          "name": "Skärmarbrink",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1611,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1611",
+          "name": "Globen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1621,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1621",
+          "name": "Enskede gård",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1631,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1631",
+          "name": "Sockenplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1641,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1641",
+          "name": "Svedmyra",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1651,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1651",
+          "name": "Stureby",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1661,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1661",
+          "name": "Bandhagen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1701,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1701",
+          "name": "Högdalen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1711,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1711",
+          "name": "Rågsved",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1721,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1721",
+          "name": "Hagsätra",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1811,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1811",
+          "name": "Blåsut",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1821,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1821",
+          "name": "Sandsborg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1831,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1831",
+          "name": "Skogskyrkogården",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1841,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1841",
+          "name": "Tallkrogen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1851,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1851",
+          "name": "Gubbängen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1861,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1861",
+          "name": "Hökarängen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1871,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1871",
+          "name": "Farsta",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1881,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1881",
+          "name": "Farsta strand",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1911,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1911",
+          "name": "Hammarbyhöjden",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1921,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1921",
+          "name": "Björkhagen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1931,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1931",
+          "name": "Kärrtorp",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1941,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1941",
+          "name": "Bagarmossen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1951,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1951",
+          "name": "Skarpnäck",
+          "type": "METROSTN"
+        }
+      ],
+      "stop_points": [
+        {
+          "id": 1011,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1011",
+          "name": "Slussen",
+          "designation": "1"
+        },
+        {
+          "id": 1012,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1012",
+          "name": "Slussen",
+          "designation": "4"
+        },
+        {
+          "id": 1021,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1021",
+          "name": "Gamla stan",
+          "designation": "1"
+        },
+        {
+          "id": 1022,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1022",
+          "name": "Gamla stan",
+          "designation": "4"
+        },
+        {
+          "id": 1052,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1052",
+          "name": "T-Centralen",
+          "designation": "4"
+        },
+        {
+          "id": 1151,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1151",
+          "name": "Fridhemsplan",
+          "designation": "1"
+        },
+        {
+          "id": 1152,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1152",
+          "name": "Fridhemsplan",
+          "designation": "2"
+        },
+        {
+          "id": 2051,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2051",
+          "name": "T-Centralen",
+          "designation": "1"
+        }
+      ],
+      "lines": [
+        {
+          "id": 17,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+          "designation": "17",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 19,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+          "designation": "19",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23108755,
+    "message_version": 3,
+    "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan.",
+    "header": "Stn.medd. Covid-19 - Gröna",
+    "importance_level": 5,
+    "from_datetime": "2020-04-17T14:24:09",
+    "to_datetime": "2020-05-02T01:30:00",
+    "created_datetime": "2020-04-17T12:24:09",
+    "updated_datetime": "2020-04-17T12:24:09",
+    "scope": {
+      "stop_areas": [
+        {
+          "id": 1111,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1111",
+          "name": "Hötorget",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1121,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1121",
+          "name": "Rådmansgatan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1131,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1131",
+          "name": "Odenplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1141,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1141",
+          "name": "S:t Eriksplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1161,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1161",
+          "name": "Thorildsplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1171,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1171",
+          "name": "Kristineberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1201,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1201",
+          "name": "Alvik",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1211,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1211",
+          "name": "Stora mossen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1221,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1221",
+          "name": "Abrahamsberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1231,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1231",
+          "name": "Brommaplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1241,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1241",
+          "name": "Åkeshov",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1251,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1251",
+          "name": "Ängbyplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1261,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1261",
+          "name": "Islandstorget",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1271,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1271",
+          "name": "Blackeberg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1281,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1281",
+          "name": "Råcksta",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1301,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1301",
+          "name": "Vällingby",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1311,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1311",
+          "name": "Johannelund",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1321,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1321",
+          "name": "Hässelby gård",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1331,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1331",
+          "name": "Hässelby strand",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1511,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1511",
+          "name": "Medborgarplatsen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1521,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1521",
+          "name": "Skanstull",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1551,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1551",
+          "name": "Gullmarsplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1601,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1601",
+          "name": "Skärmarbrink",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1611,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1611",
+          "name": "Globen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1621,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1621",
+          "name": "Enskede gård",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1631,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1631",
+          "name": "Sockenplan",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1641,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1641",
+          "name": "Svedmyra",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1651,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1651",
+          "name": "Stureby",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1661,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1661",
+          "name": "Bandhagen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1701,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1701",
+          "name": "Högdalen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1711,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1711",
+          "name": "Rågsved",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1721,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1721",
+          "name": "Hagsätra",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1811,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1811",
+          "name": "Blåsut",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1821,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1821",
+          "name": "Sandsborg",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1831,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1831",
+          "name": "Skogskyrkogården",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1841,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1841",
+          "name": "Tallkrogen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1851,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1851",
+          "name": "Gubbängen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1861,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1861",
+          "name": "Hökarängen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1871,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1871",
+          "name": "Farsta",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1881,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1881",
+          "name": "Farsta strand",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1911,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1911",
+          "name": "Hammarbyhöjden",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1921,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1921",
+          "name": "Björkhagen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1931,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1931",
+          "name": "Kärrtorp",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1941,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1941",
+          "name": "Bagarmossen",
+          "type": "METROSTN"
+        },
+        {
+          "id": 1951,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1951",
+          "name": "Skarpnäck",
+          "type": "METROSTN"
+        }
+      ],
+      "stop_points": [
+        {
+          "id": 1011,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1011",
+          "name": "Slussen",
+          "designation": "1"
+        },
+        {
+          "id": 1012,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1012",
+          "name": "Slussen",
+          "designation": "4"
+        },
+        {
+          "id": 1021,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1021",
+          "name": "Gamla stan",
+          "designation": "1"
+        },
+        {
+          "id": 1022,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1022",
+          "name": "Gamla stan",
+          "designation": "4"
+        },
+        {
+          "id": 1052,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1052",
+          "name": "T-Centralen",
+          "designation": "4"
+        },
+        {
+          "id": 1151,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1151",
+          "name": "Fridhemsplan",
+          "designation": "1"
+        },
+        {
+          "id": 1152,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1152",
+          "name": "Fridhemsplan",
+          "designation": "2"
+        },
+        {
+          "id": 2051,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/2051",
+          "name": "T-Centralen",
+          "designation": "1"
+        }
+      ],
+      "lines": [
+        {
+          "id": 17,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+          "designation": "17",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 19,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+          "designation": "19",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16794968,
+    "message_version": 15,
+    "public_note": "Sprängningsarbeten nära Slussen",
+    "header": "Sprängningsarbeten nära Slussen",
+    "details": "Sprängningsarbeten i Katarinaberget/Katarinagaraget kan orsaka buller och vibrationer vid Slussen, vardagar mellan kl. 07:00 och 22:00 samt lördagar mellan kl 09:00 och 17:00.\nDessa arbeten är av två olika typer, de svagare sprängningarna kan ske inom hela tidsspannet kl. 7-22 på vardagar samt kl. 9-17 på lördagar, de något kraftigare sprängningarna kan utföras kl.13:50-14:10, 18:50-19:10 och 21:10-21:30 på vardagarna samt på lördagarna kl. 09:50-10:10 och 14:50-15:10.\n\n",
+    "importance_level": 5,
+    "from_datetime": "2020-04-16T14:36:49",
+    "to_datetime": "2020-05-31T22:00:00",
+    "created_datetime": "2020-04-16T12:36:49",
+    "updated_datetime": "2020-04-16T12:36:49",
+    "scope": {
+      "stop_areas": [
+        {
+          "id": 1011,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1011",
+          "name": "Slussen",
+          "type": "METROSTN"
+        }
+      ],
+      "stop_points": [],
+      "lines": [
+        {
+          "id": 17,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+          "designation": "17",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 19,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+          "designation": "19",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23240561,
+    "message_version": 1,
+    "public_note": "Gubbängen: Hissen mot Gubbängstorget är avstängd pga tekniskt fel. Hänvisning till den andra entrén",
+    "header": "Avstängd hiss ",
+    "details": "Hissen vid Gubbängen, entrén mot Gubbängstorget, är avstängd på grund av tekniskt fel. Resenärer i behov av hissen hänvisas till den andra entrén mot Herrhagsvägen.\n\nVi saknar prognos på när hissen åter kan tas i bruk.\n\n\n\n",
+    "importance_level": 2,
+    "from_datetime": "2020-04-16T13:17:07",
+    "to_datetime": "2020-04-19T14:16:00",
+    "created_datetime": "2020-04-16T11:17:07",
+    "updated_datetime": "2020-04-16T11:17:07",
+    "scope": {
+      "stop_areas": [
+        {
+          "id": 1851,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1851",
+          "name": "Gubbängen",
+          "type": "METROSTN"
+        }
+      ],
+      "stop_points": [],
+      "lines": [
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23240601,
+    "message_version": 2,
+    "public_note": "Gubbängen: Hissen mot Gubbängstorget är avstängd. Hänvisning till den andra utgången.",
+    "header": "Stn.medd. Avstängd hiss Gubbängen",
+    "importance_level": 2,
+    "from_datetime": "2020-04-17T14:18:12",
+    "to_datetime": "2020-04-19T14:17:00",
+    "created_datetime": "2020-04-17T12:18:12",
+    "updated_datetime": "2020-04-17T12:18:12",
+    "scope": {
+      "stop_areas": [
+        {
+          "id": 1851,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/1851",
+          "name": "Gubbängen",
+          "type": "METROSTN"
+        }
+      ],
+      "stop_points": [],
+      "lines": [
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  }
+]

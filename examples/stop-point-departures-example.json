@@ -1,0 +1,30 @@
+[
+  {
+    "destination_name": "Slussen (bussbyte)",
+    "direction_code": 2,
+    "display_time": "9 min",
+    "scheduled_datetime": "2020-03-06T17:13:50",
+    "expected_datetime": "2020-03-06T17:16:42",
+    "journey": {
+      "id": 69181,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/462/journeys/69181"
+    },
+    "stop_area": {
+      "id": 41763,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-areas/41763",
+      "name": "Storsvängen",
+      "type": "BUSTERM"
+    },
+    "stop_point": {
+      "id": 41764,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/41764",
+      "name": "Storsvängen"
+    },
+    "line": {
+      "id": 462,
+      "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/462",
+      "designation": "462"
+    },
+    "deviations": []
+  }
+]

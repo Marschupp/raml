@@ -1,0 +1,978 @@
+{
+  "stop_area_deviations": [
+    {
+      "importance_level": 2,
+      "public_note": "Avstängt mellan T-Centralen och Slussen, sena kvällar söndag-torsdag, till och med 7 april.",
+      "lines": [
+        {
+          "id": 17,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+          "designation": "17",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 18,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+          "designation": "18",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        },
+        {
+          "id": 19,
+          "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+          "designation": "19",
+          "group_of_lines": "Tunnelbanans gröna linje"
+        }
+      ]
+    }
+  ],
+  "stop_point_deviations": [
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-centralen",
+        "designation": "2"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-centralen",
+        "designation": "4"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 17,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+              "designation": "17",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 18,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+              "designation": "18",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 19,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+              "designation": "19",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 17,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+              "designation": "17",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 18,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+              "designation": "18",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 19,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+              "designation": "19",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-centralen",
+        "designation": "5"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Fridhemsplan: Hissen mellan Blå linjen och Drottningsholmsvägen är avstängd pga underhållsarbete. Hänvisning till övriga entréer.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-Centralen",
+        "designation": "1"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 17,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+              "designation": "17",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 18,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+              "designation": "18",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 19,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+              "designation": "19",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 17,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/17",
+              "designation": "17",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 18,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/18",
+              "designation": "18",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            },
+            {
+              "id": 19,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/19",
+              "designation": "19",
+              "group_of_lines": "Tunnelbanans gröna linje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-centralen",
+        "designation": "3"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 13,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/13",
+              "designation": "13",
+              "group_of_lines": "Tunnelbanans röda linje"
+            },
+            {
+              "id": 14,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/14",
+              "designation": "14",
+              "group_of_lines": "Tunnelbanans röda linje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stop_point": {
+        "id": 1051,
+        "href": "http://10.202.1.1/sl-open-transport-information/v1/stop-points/1051",
+        "name": "T-Centralen",
+        "designation": "6"
+      },
+      "deviations": [
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Tack för att du följer Folkhälsomyndighetens rekommendationer och visar hänsyn när du reser!",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 5,
+          "public_note": "Håll avstånd - Res bara om du måste - Undvik rusningstrafik om du kan",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        },
+        {
+          "importance_level": 2,
+          "public_note": "Pendeltågen: Inställd trafik mellan Sundbyberg och Jakobsberg, kl. 04:30-08:20 p g a banarbete. Tunnelbanan och bussar från Hjulsta ersätter. Se sl.se.",
+          "lines": [
+            {
+              "id": 10,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/10",
+              "designation": "10",
+              "group_of_lines": "Tunnelbanans blå linje"
+            },
+            {
+              "id": 11,
+              "href": "http://10.202.1.1/sl-open-transport-information/v1/transport-authorities/1/lines/11",
+              "designation": "11",
+              "group_of_lines": "Tunnelbanans blå linje"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
